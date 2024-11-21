@@ -1,0 +1,126 @@
+﻿@model IEnumerable<Salon.ViewModel.roleViewModel>
+
+@{
+    ViewData["Title"] = "Add Roles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">User Role</h2>
+            <h3 class="text-secondary">@ViewBag.userName</h3>
+        </div>
+    </div>
+
+    <form method="post">
+        <input type="hidden" id="userName" name="userName" value="@ViewBag.userName" />
+        <input type="hidden" id="userId" name="userId" value="@ViewBag.userId" />
+        <input type="hidden" id="jsonRoles" name="jsonRoles" />
+
+        <div class="table-responsive mt-4">
+            <table id="roleTable" class="table table-hover table-striped table-bordered">
+                <thead class="table-header">
+                    <tr>
+                        <th scope="col">Role Id</th>
+                        <th scope="col">Role Name</th>
+                        <th scope="col">Assigned</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="tId">@item.roleId</td>
+                            <td class="tName">@item.roleName</td>
+                            <td><input type="checkbox" class="tCheck" @(item.useRole ? "checked" : "") /></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <button type="submit" onclick="updateJsonFile()" class="btn btn-primary shadow-sm mt-3" style="width: 150px;">Save</button>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        function readTableToArr() {
+            var arr = [];
+
+            $("#roleTable tbody tr").each(function (index, data) {
+                const roleId = $(data).find(".tId").text().trim();
+                const roleName = $(data).find(".tName").text().trim();
+                const useRole = $(data).find(".tCheck").is(":checked");
+
+                arr.push({
+                    roleId: roleId,
+                    roleName: roleName,
+                    useRole: useRole
+                });
+            });
+            return JSON.stringify(arr);
+        }
+
+        function updateJsonFile() {
+            $("#jsonRoles").val(readTableToArr());
+        }
+    </script>
+}
+
+<style>
+    .table-hover tbody tr:hover {
+        background-color: #f8f9fa;
+    }
+
+    .table {
+        border-collapse: separate;
+        border-spacing: 0 0.5rem;
+    }
+
+        .table thead th {
+            border: none;
+        }
+
+        .table tbody tr {
+            background: white;
+            transition: transform 0.2s ease-in-out;
+        }
+
+            .table tbody tr:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+    .table-header {
+        background: linear-gradient(135deg, #1d2b64, #f8cdda);
+        color: white;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+        .table-header th {
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+
+    .btn {
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+
+    .shadow-sm {
+        box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075) !important;
+    }
+</style>

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Salon.Models.Produit>
+
+<h2>Liste des Produits</h2>
+
+<a asp-action="CreateProduit" class="btn btn-primary">Ajouter un Produit</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Description</th>
+            <th>Prix</th>
+            <th>Stock Disponible</th>
+            <th>Date de Péremption</th>
+            <th>Fournisseur</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var produit in Model)
+        {
+            <tr>
+                <td>@produit.Nom</td>
+                <td>@produit.Description</td>
+                <td>@produit.Prix</td>
+                <td>@produit.StockDisponible</td>
+                <td>@produit.DatePeremption.ToShortDateString()</td>
+                <td>@produit.Fournisseur.Nom</td>
+            </tr>
+        }
+
+    </tbody>
+</table>

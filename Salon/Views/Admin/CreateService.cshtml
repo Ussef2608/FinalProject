@@ -1,0 +1,31 @@
+﻿@model Salon.ViewModel.ServiceViewModel
+
+<h2>Créer un Service</h2>
+
+<form asp-action="CreateService" method="post">
+    <div class="form-group">
+        <label asp-for="Nom"></label>
+        <input asp-for="Nom" class="form-control" />
+        <span asp-validation-for="Nom" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Prix"></label>
+        <input asp-for="Prix" class="form-control" />
+        <span asp-validation-for="Prix" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TypeDeSoins">Type de Soins</label>
+        <input asp-for="TypeDeSoins" class="form-control" />
+        <span asp-validation-for="TypeDeSoins" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Créer</button>
+</form>

@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Salon.Models.Service>
+<h2>Liste des Services</h2>
+<a asp-action="CreateService" class="btn btn-primary">Ajouter un service</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Description</th>
+            <th>Prix</th>
+            <th>Type de Soins</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var service in Model)
+        {
+            <tr>
+                <td>@service.Nom</td>
+                <td>@service.Description</td>
+                <td>@service.Prix</td>
+                <td>@service.TypeDeSoins</td>
+            </tr>
+        }
+    </tbody>
+</table>

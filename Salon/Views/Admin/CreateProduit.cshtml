@@ -1,0 +1,43 @@
+﻿@model Salon.ViewModel.ProduitViewModel
+<h2>Créer un Produit</h2>
+
+<form asp-action="CreateProduit" method="post">
+    <div class="form-group">
+        <label asp-for="Nom"></label>
+        <input asp-for="Nom" class="form-control" />
+        <span asp-validation-for="Nom" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Prix"></label>
+        <input asp-for="Prix" class="form-control" />
+        <span asp-validation-for="Prix" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="StockDisponible"></label>
+        <input asp-for="StockDisponible" class="form-control" />
+        <span asp-validation-for="StockDisponible" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DatePeremption"></label>
+        <input asp-for="DatePeremption" type="date" class="form-control" />
+        <span asp-validation-for="DatePeremption" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FournisseurId">Fournisseur</label>
+        <select asp-for="FournisseurId" asp-items="ViewBag.Fournisseurs" class="form-control"></select>
+        <span asp-validation-for="FournisseurId" class="text-danger"></span>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Créer</button>
+</form>
