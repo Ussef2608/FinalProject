@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Meltier.Controllers
 {
-    public class AdminController : Controller
+    public class FournisseurController : Controller
     {
         private readonly AppDbContext _context;
 
-        public AdminController(AppDbContext context)
+        public FournisseurController(AppDbContext context)
         {
             _context = context;
         }
@@ -68,14 +68,26 @@ namespace Meltier.Controllers
         [HttpPost]
         public async Task<IActionResult> EditFournisseur(Fournisseur fournisseur)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Fournisseurs.Update(fournisseur);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(IndexFournisseur));
-            }
+            
+                try
+                {
+                    // Mise à jour dans la base de données
+                    _context.Fournisseurs.Update(fournisseur);
+                    await _context.SaveChangesAsync();
+
+                    // Redirection vers IndexFournisseur si tout est OK
+                    return RedirectToAction("IndexFournisseur", "Fournisseur");
+                }
+                catch (Exception ex)
+                {
+                    // En cas d'erreur inattendue, ajoutez un message d'erreur personnalisé
+                    ModelState.AddModelError(string.Empty, "Une erreur est survenue lors de la mise à jour. Veuillez réessayer.");
+                }
+
+            // Si le modèle n'est pas valide ou qu'une exception survient, rester sur la vue actuelle
             return View(fournisseur);
         }
+
 
         public async Task<IActionResult> DeleteFournisseur(int id)
         {

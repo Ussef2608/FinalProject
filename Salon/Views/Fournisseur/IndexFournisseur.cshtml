@@ -1,0 +1,61 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+@model IEnumerable<Fournisseur>
+
+<div class="container justify-content-center py-4">
+    <h2 class="mb-4 text-center">Liste des Fournisseurs</h2>
+
+    <div class="d-flex justify-content-end mb-3">
+        <a asp-action="CreateFournisseur" class="btn btn-primary btn-sm">
+            <i class="fa fa-plus"></i> Ajouter un Fournisseur
+        </a>
+    </div>
+
+    <table class="table table-striped table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Nom</th>
+                <th>Contact</th>
+                <th>Email</th>
+                <th>Adresse</th>
+                <th>Ville</th>
+                <th>Pays</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="7" class="text-center">Aucun fournisseur disponible.</td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var fournisseur in Model)
+                {
+                    <tr>
+                        <td>@fournisseur.Nom</td>
+                        <td>@fournisseur.Contact</td>
+                        <td>@fournisseur.Email</td>
+                        <td>@fournisseur.Adresse</td>
+                        <td>@fournisseur.Ville</td>
+                        <td>@fournisseur.Pays</td>
+                        <td>
+                            <a asp-action="EditFournisseur" asp-route-id="@fournisseur.Id" class="btn btn-warning btn-sm">
+                                <i class="fa fa-edit"></i> Modifier
+                            </a>
+                            <!-- Bouton Supprimer -->
+                            <button type="button" class="btn btn-danger btn-sm" onclick="confirmDelete(@fournisseur.Id)">
+                                <i class="fa fa-trash"></i> Supprimer
+                            </button>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+
