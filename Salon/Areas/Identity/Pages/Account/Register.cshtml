@@ -7,233 +7,190 @@
 @{
     Layout = null;
 }
+<!--
+=========================================================
+* Corporate UI - v1.0.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/corporate-ui
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://www.creative-tim.com/license)
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    <meta charset="utf-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="/assets/img/favicon.png">
     <title>
-        Soft UI Dashboard 3 by Creative Tim
+        Corporate UI by Creative Tim
     </title>
     <!--     Fonts and icons     -->
-    <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,800" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Noto+Sans:300,400,500,600,700,800|PT+Mono:300,400,500,600,700" rel="stylesheet" />
     <!-- Nucleo Icons -->
-    <link href="https://demos.creative-tim.com/soft-ui-dashboard/assets/css/nucleo-icons.css" rel="stylesheet" />
-    <link href="https://demos.creative-tim.com/soft-ui-dashboard/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
     <!-- Font Awesome Icons -->
-    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/349ee9c857.js" crossorigin="anonymous"></script>
+    <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
     <!-- CSS Files -->
-    <link id="pagestyle" href="/assets/css/soft-ui-dashboard.css?v=1.1.0" rel="stylesheet" />
-    <!-- Nepcha Analytics (nepcha.com) -->
-    <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
-    <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
+    <link id="pagestyle" href="/assets/css/corporate-ui-dashboard.css?v=1.0.0" rel="stylesheet" />
 </head>
 
 <body class="">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3 navbar-transparent mt-4">
-        <div class="container">
-            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 text-white" href="../pages/dashboard.html">
-                Soft UI Dashboard 3
-            </a>
-            <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon mt-2">
-                    <span class="navbar-toggler-bar bar1"></span>
-                    <span class="navbar-toggler-bar bar2"></span>
-                    <span class="navbar-toggler-bar bar3"></span>
-                </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navigation">
-                <ul class="navbar-nav mx-auto ms-xl-auto me-xl-7">
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center me-2 active" aria-current="page" href="../pages/dashboard.html">
-                            <i class="fa fa-chart-pie opacity-6  me-1"></i>
-                            Dashboard
+    <div class="container position-sticky z-index-sticky top-0">
+        <div class="row">
+            <div class="col-12">
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg blur border-radius-sm top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
+                    <div class="container-fluid px-1">
+                        <a class="navbar-brand font-weight-bolder ms-lg-0 " href="../pages/dashboard.html">
+                            Corporate UI
                         </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-2" href="../pages/profile.html">
-                            <i class="fa fa-user opacity-6  me-1"></i>
-                            Profile
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-2" href="../pages/sign-up.html">
-                            <i class="fas fa-user-circle opacity-6  me-1"></i>
-                            Sign Up
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-2" href="../pages/sign-in.html">
-                            <i class="fas fa-key opacity-6  me-1"></i>
-                            Sign In
-                        </a>
-                    </li>
-                </ul>
-                <li class="nav-item d-flex align-items-center">
-                    <a class="btn btn-round btn-sm mb-0 btn-outline-white me-2" target="_blank" href="https://www.creative-tim.com/builder?ref=navbar-soft-ui-dashboard">Online Builder</a>
-                </li>
-                <ul class="navbar-nav d-lg-block d-none">
-                    <li class="nav-item">
-                        <a href="https://www.creative-tim.com/product/soft-ui-dashboard" class="btn btn-sm btn-round mb-0 me-1 bg-gradient-light">Free download</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- End Navbar -->
-    <main class="main-content  mt-0">
-        <section class="min-vh-100 mb-8">
-            <div class="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg" style="background-image: url('../assets/img/curved-images/curved14.jpg');">
-                <span class="mask bg-gradient-dark opacity-6"></span>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-5 text-center mx-auto">
-                            <h1 class="text-white mb-2 mt-5">Welcome!</h1>
-                            <p class="text-lead text-white">Use these awesome forms to login or create new account in your project for free.</p>
+                        <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon mt-2">
+                                <span class="navbar-toggler-bar bar1"></span>
+                                <span class="navbar-toggler-bar bar2"></span>
+                                <span class="navbar-toggler-bar bar3"></span>
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navigation">
+                            <ul class="navbar-nav mx-auto ms-xl-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex align-items-center me-2 " aria-current="page" href="../pages/dashboard.html">
+                                        <svg width="14" height="14" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="currentColor" class="opacity-6 me-1">
+                                            <g id="dashboard" stroke="none" stroke-width="1" fill-rule="evenodd">
+                                                <g id="template" transform="translate(1.000000, 1.000000)">
+                                                    <path d="M0,1.71428571 C0,0.76752 0.76752,0 1.71428571,0 L22.2857143,0 C23.2325143,0 24,0.76752 24,1.71428571 L24,5.14285714 C24,6.08962286 23.2325143,6.85714286 22.2857143,6.85714286 L1.71428571,6.85714286 C0.76752,6.85714286 0,6.08962286 0,5.14285714 L0,1.71428571 Z"></path>
+                                                    <path d="M0,12 C0,11.0532171 0.76752,10.2857143 1.71428571,10.2857143 L12,10.2857143 C12.9468,10.2857143 13.7142857,11.0532171 13.7142857,12 L13.7142857,22.2857143 C13.7142857,23.2325143 12.9468,24 12,24 L1.71428571,24 C0.76752,24 0,23.2325143 0,22.2857143 L0,12 Z"></path>
+                                                    <path d="M18.8571429,10.2857143 C17.9103429,10.2857143 17.1428571,11.0532171 17.1428571,12 L17.1428571,22.2857143 C17.1428571,23.2325143 17.9103429,24 18.8571429,24 L22.2857143,24 C23.2325143,24 24,23.2325143 24,22.2857143 L24,12 C24,11.0532171 23.2325143,10.2857143 22.2857143,10.2857143 L18.8571429,10.2857143 Z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        Dashboard
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex align-items-center me-2 " href="../pages/profile.html">
+                                        <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="opacity-6 me-1">
+                                            <path fill-rule="evenodd" d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" clip-rule="evenodd" />
+                                        </svg>
+                                        <span>Profile</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex align-items-center me-2 text-dark font-weight-bold" href="../pages/sign-up.html">
+                                        <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class=" text-dark  me-1">
+                                            <path fill-rule="evenodd" d="M12 1.5a5.25 5.25 0 00-5.25 5.25v3a3 3 0 00-3 3v6.75a3 3 0 003 3h10.5a3 3 0 003-3v-6.75a3 3 0 00-3-3v-3c0-2.9-2.35-5.25-5.25-5.25zm3.75 8.25v-3a3.75 3.75 0 10-7.5 0v3h7.5z" clip-rule="evenodd" />
+                                        </svg>
+                                        Sign Up
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex align-items-center me-2 " href="../pages/sign-in.html">
+                                        <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="opacity-6 me-1">
+                                            <path fill-rule="evenodd" d="M15.75 1.5a6.75 6.75 0 00-6.651 7.906c.067.39-.032.717-.221.906l-6.5 6.499a3 3 0 00-.878 2.121v2.818c0 .414.336.75.75.75H6a.75.75 0 00.75-.75v-1.5h1.5A.75.75 0 009 19.5V18h1.5a.75.75 0 00.53-.22l2.658-2.658c.19-.189.517-.288.906-.22A6.75 6.75 0 1015.75 1.5zm0 3a.75.75 0 000 1.5A2.25 2.25 0 0118 8.25a.75.75 0 001.5 0 3.75 3.75 0 00-3.75-3.75z" clip-rule="evenodd" />
+                                        </svg>
+                                        Sign In
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav d-lg-block d-none">
+                                <li class="nav-item">
+                                    <a href="https://www.creative-tim.com/product/corporate-ui-dashboard" class="btn btn-sm mb-0 bg-gradient-dark">Free download</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>
+                </nav>
+                <!-- End Navbar -->
             </div>
-            <div class="container">
-                <div class="row mt-lg-n10 mt-md-n11 mt-n10">
-                    <div class="col-xl-4 col-lg-5 col-md-7 mx-auto">
-                        <div class="card z-index-0">
-                            <div class="card-header text-center pt-4">
-                                <h5>Register with</h5>
+        </div>
+    </div>
+    <main class="main-content  mt-0">
+        <section>
+            <div class="page-header min-vh-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="position-absolute w-40 top-0 start-0 h-100 d-md-block d-none">
+                                <div class="oblique-image position-absolute d-flex fixed-top ms-auto h-100 z-index-0 bg-cover me-n8" style="background-image:url('/assets/img/image-sign-up.jpg')">
+                                    <div class="my-auto text-start max-width-350 ms-7">
+                                        <h1 class="mt-3 text-white font-weight-bolder">Start your <br> new journey.</h1>
+                                        <p class="text-white text-lg mt-4 mb-4">Use these awesome forms to login or create new account in your project for free.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="avatar-group d-flex">
+                                                <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-bs-toggle="tooltip" data-original-title="Jessica Rowland">
+                                                    <img alt="Image placeholder" src="/assets/img/team-3.jpg" class="">
+                                                </a>
+                                                <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-bs-toggle="tooltip" data-original-title="Audrey Love">
+                                                    <img alt="Image placeholder" src="/assets/img/team-4.jpg" class="rounded-circle">
+                                                </a>
+                                                <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-bs-toggle="tooltip" data-original-title="Michael Lewis">
+                                                    <img alt="Image placeholder" src="/assets/img/marie.jpg" class="rounded-circle">
+                                                </a>
+                                                <a href="javascript:;" class="avatar avatar-sm rounded-circle" data-bs-toggle="tooltip" data-original-title="Audrey Love">
+                                                    <img alt="Image placeholder" src="/assets/img/team-1.jpg" class="rounded-circle">
+                                                </a>
+                                            </div>
+                                            <p class="font-weight-bold text-white text-sm mb-0 ms-2">Join 2.5M+ users</p>
+                                        </div>
+                                    </div>
+                                    <div class="text-start position-absolute fixed-bottom ms-7">
+                                        <h6 class="text-white text-sm mb-5">Copyright © 2022 Corporate UI Design System by Creative Tim.</h6>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="row px-xl-5 px-sm-4 px-3">
-                                <div class="col-3 ms-auto px-1">
-                                    <a class="btn btn-outline-light w-100" href="javascript:;">
-                                        <svg width="24px" height="32px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink32">
-                                            <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                <g id="facebook-3" transform="translate(3.000000, 3.000000)" fill-rule="nonzero">
-                                                    <circle fill="#3C5A9A" cx="29.5091719" cy="29.4927506" r="29.4882047"></circle>
-                                                    <path d="M39.0974944,9.05587273 L32.5651312,9.05587273 C28.6886088,9.05587273 24.3768224,10.6862851 24.3768224,16.3054653 C24.395747,18.2634019 24.3768224,20.1385313 24.3768224,22.2488655 L19.8922122,22.2488655 L19.8922122,29.3852113 L24.5156022,29.3852113 L24.5156022,49.9295284 L33.0113092,49.9295284 L33.0113092,29.2496356 L38.6187742,29.2496356 L39.1261316,22.2288395 L32.8649196,22.2288395 C32.8649196,22.2288395 32.8789377,19.1056932 32.8649196,18.1987181 C32.8649196,15.9781412 35.1755132,16.1053059 35.3144932,16.1053059 C36.4140178,16.1053059 38.5518876,16.1085101 39.1006986,16.1053059 L39.1006986,9.05587273 L39.0974944,9.05587273 L39.0974944,9.05587273 Z" id="Path" fill="#FFFFFF"></path>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </a>
+                        </div>
+                        <div class="col-md-4 d-flex flex-column mx-auto">
+                            <div class="card card-plain mt-8">
+                                <div class="card-header pb-0 text-left bg-transparent">
+                                    <h3 class="font-weight-black text-dark display-6">Sign up</h3>
+                                    <p class="mb-0">Nice to meet you! Please enter your details.</p>
                                 </div>
-                                <div class="col-3 px-1">
-                                    <a class="btn btn-outline-light w-100" href="javascript:;">
-                                        <svg width="24px" height="32px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                            <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                <g id="apple-black" transform="translate(7.000000, 0.564551)" fill="#000000" fill-rule="nonzero">
-                                                    <path d="M40.9233048,32.8428307 C41.0078713,42.0741676 48.9124247,45.146088 49,45.1851909 C48.9331634,45.4017274 47.7369821,49.5628653 44.835501,53.8610269 C42.3271952,57.5771105 39.7241148,61.2793611 35.6233362,61.356042 C31.5939073,61.431307 30.2982233,58.9340578 25.6914424,58.9340578 C21.0860585,58.9340578 19.6464932,61.27947 15.8321878,61.4314159 C11.8738936,61.5833617 8.85958554,57.4131833 6.33064852,53.7107148 C1.16284874,46.1373849 -2.78641926,32.3103122 2.51645059,22.9768066 C5.15080028,18.3417501 9.85858819,15.4066355 14.9684701,15.3313705 C18.8554146,15.2562145 22.5241194,17.9820905 24.9003639,17.9820905 C27.275104,17.9820905 31.733383,14.7039812 36.4203248,15.1854154 C38.3824403,15.2681959 43.8902255,15.9888223 47.4267616,21.2362369 C47.1417927,21.4153043 40.8549638,25.1251794 40.9233048,32.8428307 M33.3504628,10.1750144 C35.4519466,7.59650964 36.8663676,4.00699306 36.4804992,0.435448578 C33.4513624,0.558856931 29.7884601,2.48154382 27.6157341,5.05863265 C25.6685547,7.34076135 23.9632549,10.9934525 24.4233742,14.4943068 C27.7996959,14.7590956 31.2488715,12.7551531 33.3504628,10.1750144" id="Shape"></path>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </a>
+                                <div class="card-body">
+
+                                    <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                                        <h2>Create a new account.</h2>
+                                        <hr />
+                                        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                                        <div class="form-floating mb-3">
+                                            <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                                            <label asp-for="Input.Email">Email</label>
+                                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                                            <label asp-for="Input.Password">Password</label>
+                                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                                            <label asp-for="Input.ConfirmPassword">Confirm Password</label>
+                                            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                                        </div>
+                                        <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Sign Up</button>
+                                    </form>
                                 </div>
-                                <div class="col-3 me-auto px-1">
-                                    <a class="btn btn-outline-light w-100" href="javascript:;">
-                                        <svg width="24px" height="32px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                            <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                <g id="google-icon" transform="translate(3.000000, 2.000000)" fill-rule="nonzero">
-                                                    <path d="M57.8123233,30.1515267 C57.8123233,27.7263183 57.6155321,25.9565533 57.1896408,24.1212666 L29.4960833,24.1212666 L29.4960833,35.0674653 L45.7515771,35.0674653 C45.4239683,37.7877475 43.6542033,41.8844383 39.7213169,44.6372555 L39.6661883,45.0037254 L48.4223791,51.7870338 L49.0290201,51.8475849 C54.6004021,46.7020943 57.8123233,39.1313952 57.8123233,30.1515267" id="Path" fill="#4285F4"></path>
-                                                    <path d="M29.4960833,58.9921667 C37.4599129,58.9921667 44.1456164,56.3701671 49.0290201,51.8475849 L39.7213169,44.6372555 C37.2305867,46.3742596 33.887622,47.5868638 29.4960833,47.5868638 C21.6960582,47.5868638 15.0758763,42.4415991 12.7159637,35.3297782 L12.3700541,35.3591501 L3.26524241,42.4054492 L3.14617358,42.736447 C7.9965904,52.3717589 17.959737,58.9921667 29.4960833,58.9921667" id="Path" fill="#34A853"></path>
-                                                    <path d="M12.7159637,35.3297782 C12.0932812,33.4944915 11.7329116,31.5279353 11.7329116,29.4960833 C11.7329116,27.4640054 12.0932812,25.4976752 12.6832029,23.6623884 L12.6667095,23.2715173 L3.44779955,16.1120237 L3.14617358,16.2554937 C1.14708246,20.2539019 0,24.7439491 0,29.4960833 C0,34.2482175 1.14708246,38.7380388 3.14617358,42.736447 L12.7159637,35.3297782" id="Path" fill="#FBBC05"></path>
-                                                    <path d="M29.4960833,11.4050769 C35.0347044,11.4050769 38.7707997,13.7975244 40.9011602,15.7968415 L49.2255853,7.66898166 C44.1130815,2.91684746 37.4599129,0 29.4960833,0 C17.959737,0 7.9965904,6.62018183 3.14617358,16.2554937 L12.6832029,23.6623884 C15.0758763,16.5505675 21.6960582,11.4050769 29.4960833,11.4050769" id="Path" fill="#EB4335"></path>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="mt-2 position-relative text-center">
-                                    <p class="text-sm font-weight-bold mb-2 text-secondary text-border d-inline z-index-2 bg-white px-3">
-                                        or
+                                <div class="card-footer text-center pt-0 px-lg-2 px-1">
+                                    <p class="mb-4 text-xs mx-auto">
+                                        Already have an account?
+                                        <a href="javascript:;" class="text-dark font-weight-bold">Sign in</a>
                                     </p>
                                 </div>
-                            </div>
-                            <div class="card-body">
-
-                                <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
-                                    <h2>Create a new account.</h2>
-                                    <hr />
-                                    <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
-                                    <div class="form-floating mb-3">
-                                        <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
-                                        <label asp-for="Input.Email">Email</label>
-                                        <span asp-validation-for="Input.Email" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-floating mb-3">
-                                        <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
-                                        <label asp-for="Input.Password">Password</label>
-                                        <span asp-validation-for="Input.Password" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-floating mb-3">
-                                        <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
-                                        <label asp-for="Input.ConfirmPassword">Confirm Password</label>
-                                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-                                    </div>
-                                    <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Sign Up</button>
-                                </form>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- -------- START FOOTER 3 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
-        <footer class="footer py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mb-4 mx-auto text-center">
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                            Company
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                            About Us
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                            Team
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                            Products
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                            Blog
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                            Pricing
-                        </a>
-                    </div>
-                    <div class="col-lg-8 mx-auto text-center mb-4 mt-2">
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
-                            <span class="text-lg fab fa-dribbble"></span>
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
-                            <span class="text-lg fab fa-twitter"></span>
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
-                            <span class="text-lg fab fa-instagram"></span>
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
-                            <span class="text-lg fab fa-pinterest"></span>
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
-                            <span class="text-lg fab fa-github"></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-8 mx-auto text-center mt-1">
-                        <p class="mb-0 text-secondary">
-                            Copyright © <script>
-                                            document.write(new Date().getFullYear())
-                            </script> Soft by Creative Tim.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- -------- END FOOTER 3 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
     </main>
     <!--   Core JS Files   -->
     <script src="../assets/js/core/popper.min.js"></script>
@@ -251,12 +208,11 @@
     </script>
     <!-- Github buttons -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
-    <script src="../assets/js/soft-ui-dashboard.min.js?v=1.1.0"></script>
+    <!-- Control Center for Corporate UI Dashboard: parallax effects, scripts for the example pages etc -->
+    <script src="../assets/js/corporate-ui-dashboard.min.js?v=1.0.0"></script>
 </body>
 
 </html>
-
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }

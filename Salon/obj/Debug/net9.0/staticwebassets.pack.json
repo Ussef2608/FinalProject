@@ -209,6 +209,18 @@
       "PackagePath": "staticwebassets\\Photos\\woman-with-creative-yellow-coloring-hair-and-makeu-2021-11-30-03-59-50-utc-800x534.jpg"
     },
     {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\css\\corporate-ui-dashboard.css",
+      "PackagePath": "staticwebassets\\assets\\css\\corporate-ui-dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\css\\corporate-ui-dashboard.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\corporate-ui-dashboard.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\css\\corporate-ui-dashboard.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\corporate-ui-dashboard.min.css"
+    },
+    {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\css\\nucleo-icons.css",
       "PackagePath": "staticwebassets\\assets\\css\\nucleo-icons.css"
     },
@@ -277,8 +289,16 @@
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff2"
     },
     {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\3d-cube.png",
+      "PackagePath": "staticwebassets\\assets\\img\\3d-cube.png"
+    },
+    {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\apple-icon.png",
       "PackagePath": "staticwebassets\\assets\\img\\apple-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\bg1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg1.jpg"
     },
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\bootstrap-5.svg",
@@ -287,6 +307,10 @@
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\bruce-mars.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\bruce-mars.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\corporate-ui-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\corporate-ui-logo.svg"
     },
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\curved-images\\curved0.jpg",
@@ -309,6 +333,14 @@
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved8.jpg"
     },
     {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\curved-images\\img-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\curved-images\\img-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\img-7.jpg"
+    },
+    {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\curved-images\\white-curved.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\white-curved.jpeg"
     },
@@ -317,12 +349,24 @@
       "PackagePath": "staticwebassets\\assets\\img\\down-arrow-dark.svg"
     },
     {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\down-arrow-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow-white.svg"
+    },
+    {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\down-arrow.svg",
       "PackagePath": "staticwebassets\\assets\\img\\down-arrow.svg"
     },
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\favicon.png",
       "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\header-blue-purple.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\header-blue-purple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\header-orange-purple.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\header-orange-purple.jpg"
     },
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\home-decor-1.jpg",
@@ -341,6 +385,42 @@
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\rocket-white.png"
     },
     {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\image-sign-in.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\image-sign-in.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\image-sign-up.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\image-sign-up.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\img-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\img-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\img-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\img-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\img-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-9.jpg"
+    },
+    {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\ivana-square.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\ivana-square.jpg"
     },
@@ -353,16 +433,40 @@
       "PackagePath": "staticwebassets\\assets\\img\\kal-visuals-square.jpg"
     },
     {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\logo-ct-dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-ct-dark.png"
+    },
+    {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\logo-ct.png",
       "PackagePath": "staticwebassets\\assets\\img\\logo-ct.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\logos\\facebook-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\facebook-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\logos\\google-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\google-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\logos\\mastercard-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\mastercard-white.png"
     },
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\logos\\mastercard.png",
       "PackagePath": "staticwebassets\\assets\\img\\logos\\mastercard.png"
     },
     {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\logos\\visa-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\visa-white.png"
+    },
+    {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\logos\\visa.png",
       "PackagePath": "staticwebassets\\assets\\img\\logos\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\logos\\wifi-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\wifi-white.png"
     },
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\marie.jpg",
@@ -379,6 +483,10 @@
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\small-logos\\logo-atlassian.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-atlassian.svg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\small-logos\\logo-google.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-google.svg"
     },
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\small-logos\\logo-invision.svg",
@@ -421,6 +529,70 @@
       "PackagePath": "staticwebassets\\assets\\img\\team-4.jpg"
     },
     {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\team-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\team-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\theme\\angular.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\angular.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\theme\\bootstrap.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\bootstrap.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\theme\\dribbble.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\dribbble.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\theme\\dropbox.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\dropbox.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\theme\\mastercard.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\mastercard.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\theme\\paypal.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\theme\\react.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\react.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\theme\\sketch.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\sketch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\theme\\slack.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\slack.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\theme\\spotify.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\spotify.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\theme\\tim.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\tim.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\theme\\unass.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\unass.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\theme\\visa.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\theme\\vue.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\vue.jpg"
+    },
+    {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\img\\vr-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\vr-bg.jpg"
     },
@@ -435,6 +607,18 @@
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\js\\core\\popper.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\js\\corporate-ui-dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\corporate-ui-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\js\\corporate-ui-dashboard.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\corporate-ui-dashboard.js.map"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\js\\corporate-ui-dashboard.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\corporate-ui-dashboard.min.js"
     },
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\js\\plugins\\Chart.extension.js",
@@ -553,6 +737,10 @@
       "PackagePath": "staticwebassets\\assets\\js\\plugins\\sweetalert.min.js"
     },
     {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\js\\plugins\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\swiper-bundle.min.js"
+    },
+    {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\js\\plugins\\threejs.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugins\\threejs.js"
     },
@@ -571,6 +759,682 @@
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\js\\soft-ui-dashboard.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\soft-ui-dashboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_avatars.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_avatars.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_cards.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_dark-version.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_dropup.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_dropup.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_info-areas.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_misc.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_popovers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_popovers.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_rtl.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_tilt.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_tilt.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_timeline.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_tooltips.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_utilities-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_maps.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\cards\\card-background.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\cards\\card-background.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\custom\\_styles.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\custom\\_styles.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\custom\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\custom\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\forms\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\forms\\_form-switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\forms\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\forms\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\forms\\_inputs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\forms\\_inputs.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\mixins\\_colored-shadows.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\mixins\\_colored-shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\mixins\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\mixins\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\mixins\\mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\mixins\\mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_flatpickr.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_flatpickr.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_nouislider.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_nouislider.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_perfect-scrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_prism.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_prism.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_swiper.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_swiper.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\plugins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\plugins.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\theme.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_animations.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_animations.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_avatars.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_avatars.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_cards-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_cards.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_choices.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_choices.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_dark-version.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_dropdowns.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_form-switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_full-calendar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_full-calendar.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_info-areas.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_misc-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_misc.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_rtl.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_table.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_table.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_timeline.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_utilities-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_virtual-reality.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_virtual-reality.scss"
     },
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\assets\\scss\\reset.scss",
