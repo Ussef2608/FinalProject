@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maelf\\source\\repos\\Salon\\Salon\\Salon.csproj": {}
+    "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Salon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maelf\\source\\repos\\Salon\\Salon\\Salon.csproj": {
+    "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Salon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maelf\\source\\repos\\Salon\\Salon\\Salon.csproj",
+        "projectUniqueName": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Salon.csproj",
         "projectName": "Salon",
-        "projectPath": "C:\\Users\\maelf\\source\\repos\\Salon\\Salon\\Salon.csproj",
+        "projectPath": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Salon.csproj",
         "packagesPath": "C:\\Users\\maelf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maelf\\source\\repos\\Salon\\Salon\\obj\\",
+        "outputPath": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

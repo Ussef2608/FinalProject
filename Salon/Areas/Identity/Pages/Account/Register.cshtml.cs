@@ -110,6 +110,7 @@ namespace Salon.Areas.Identity.Pages.Account
         {
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
@@ -120,6 +121,9 @@ namespace Salon.Areas.Identity.Pages.Account
 
                 if (result.Succeeded)
                 {
+                    // Assigner le rôle "User" par défaut
+                    await _userManager.AddToRoleAsync(user, "User");
+
                     _logger.LogInformation("User created a new account with password.");
 
                     var userId = await _userManager.GetUserIdAsync(user);
@@ -153,6 +157,7 @@ namespace Salon.Areas.Identity.Pages.Account
             // If we got this far, something failed, redisplay form
             return Page();
         }
+
 
         private IdentityUser CreateUser()
         {

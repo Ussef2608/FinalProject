@@ -1,0 +1,275 @@
+﻿#first{
+    height:70vh;
+    background-image:url('/Photos/bg-home.jpg');
+    background-repeat : no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.navbar-nav a{
+    color:black;
+    text-decoration:none;
+}
+
+.btn-price{
+    background-color:navajowhite;
+}
+/* Styles de la section principale */
+.hero-section {
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenu centré */
+.hero-content h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Mot mis en évidence */
+.highlight {
+    position: relative;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+    /* Ajout du symbole étoilé */
+    .highlight::after {
+        content: "✺"; /* Symbol resembling the icon in the design */
+        font-size: 1.5rem;
+        color: #d4884d;
+        position: absolute;
+        right: -20px;
+        top: 5px;
+    }
+
+/* Style du texte descriptif */
+.hero-content p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Bouton de prise de rendez-vous */
+.appointment-button {
+    background-color: #d4884d;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+    .appointment-button:hover {
+        background-color: #b76e3e;
+    }
+/* Image responsive qui dépasse légèrement */
+.responsive-image {
+    width: 100%; /* L'image occupe toute la largeur disponible */
+    max-width: 600px; /* Largeur maximale pour limiter la taille */
+    height: auto; /* Garde le ratio de l'image intact */
+    object-fit: cover; /* Coupe l'image si nécessaire pour qu'elle remplisse bien son conteneur */
+    margin-top: -20px; /* Décalage pour dépasser un peu */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Conteneur parent pour assurer le bon alignement */
+.container {
+    overflow: visible;
+    max-width: auto; /* Limite la largeur totale du conteneur */
+}
+
+/* Image responsive qui s'adapte à son conteneur */
+.responsive-image {
+    width: 100%; /* L'image prend toute la largeur du col-md */
+    height: auto; /* Maintient le ratio de l'image */
+    object-fit: cover; /* S'assure que l'image remplisse bien sans distorsion */
+    max-height: 100vh; /* Empêche l'image d'être trop grande */
+    margin-top: -10px; /* Décalage léger vers le haut */
+    transition: transform 0.3s ease-in-out;
+}
+
+    /* Zoom léger au survol */
+    .responsive-image:hover {
+        transform: scale(1.05); /* Effet zoom au survol */
+        cursor: pointer;
+    }
+
+/* Vidéo responsive */
+.responsive-video {
+    width: 100%; /* Prend toute la largeur du conteneur */
+    height: auto; /* Maintient le ratio de la vidéo */
+    max-height: 90vh; /* Limite la hauteur à 90% de la hauteur de l'écran */
+    display: block; /* Évite les marges inutiles */
+    object-fit: cover; /* Coupe la vidéo si nécessaire pour qu'elle remplisse bien le conteneur */
+}
+
+/* Centrage du conteneur */
+.col-md-12 {
+    padding: 0; /* Supprime le padding pour une vidéo pleine largeur */
+    overflow: hidden; /* Empêche les débordements indésirables */
+}
+
+/* Section Newsletter */
+.newsletter-section {
+    background-color: #e27a46; /* Couleur de fond orange */
+    color: white;
+    position: relative;
+}
+
+.newsletter-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.newsletter-text {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* Champ d'entrée et bouton */
+.form-control {
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+    .form-control::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+.btn-subscribe {
+    background-color: white;
+    color: #e27a46;
+    font-weight: bold;
+    border: none;
+    padding: 0 20px;
+}
+
+/* Style des lignes ondulées */
+.newsletter-section::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 150px;
+    height: 100px;
+    background: url('path_to_wave_image.svg') no-repeat;
+    opacity: 0.3;
+}
+
+.newsletter-section::after {
+    content: '';
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    width: 150px;
+    height: 100px;
+    background: url('path_to_wave_image.svg') no-repeat;
+    opacity: 0.3;
+}
+/* Footer Section */
+.footer-section {
+    background-color: #f9f5f0;
+    color: #333;
+}
+
+.footer-description {
+    color: #666;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-location h5 {
+    font-weight: bold;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.footer-location p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.footer-bottom {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.footer-link {
+    color: #666;
+    text-decoration: none;
+}
+
+    .footer-link:hover {
+        text-decoration: underline;
+    }
+/* Section Newsletter */
+.newsletter-section {
+    background-color: #e27a46; /* Couleur de fond orange */
+    color: white;
+    position: relative;
+}
+
+.newsletter-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.newsletter-text {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* Champ d'entrée et bouton */
+.form-control {
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+    .form-control::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+.btn-subscribe {
+    background-color: white;
+    color: #e27a46;
+    font-weight: bold;
+    border: none;
+    padding: 0 20px;
+}
+
+/* Style des lignes ondulées */
+.newsletter-section::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 150px;
+    height: 100px;
+    background: url('path_to_wave_image.svg') no-repeat;
+    opacity: 0.3;
+}
+
+.newsletter-section::after {
+    content: '';
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    width: 150px;
+    height: 100px;
+    background: url('path_to_wave_image.svg') no-repeat;
+    opacity: 0.3;
+}

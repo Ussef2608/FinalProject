@@ -40,7 +40,7 @@
             </table>
         </div>
 
-        <button type="submit" onclick="updateJsonFile()" class="btn btn-primary shadow-sm mt-3" style="width: 150px;">Save</button>
+        <button type="button" onclick="updateJsonFile()" class="btn btn-primary shadow-sm mt-3" style="width: 150px;">Save</button>
     </form>
 </div>
 
@@ -64,7 +64,7 @@
         }
 
         function updateJsonFile() {
-            $("#jsonRoles").val(readTableToArr());
+            $("#jsonRoles").val(readTableToArr()); 
         }
     </script>
 }

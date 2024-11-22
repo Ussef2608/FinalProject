@@ -1,0 +1,273 @@
+﻿#first {
+    height: 50vh;
+    background-image: url('/Photos/bg-home.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.body {
+    background-color: #FFF9F9;
+}
+
+.hair-coloring-section {
+    padding: 3rem 0;
+    color: #333;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.section-description {
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 80%;
+    margin-bottom: 1.5rem;
+}
+
+.btn-appointment {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-appointment {
+    background-color: #d2691e;
+}
+
+.hair-image {
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.decorative-lines {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+    .decorative-lines svg {
+        width: 80px;
+        height: 80px;
+        opacity: 0.8;
+    }
+
+.about-services-section {
+    color: #333;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.section-description p {
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.decorative-lines {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0.6;
+}
+
+.sub-services-section {
+    background-color: #f9f5f0;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.service-card {
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background-color: transparent;
+}
+
+.service-image {
+    position: relative;
+}
+
+    .service-image img {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+.service-icon {
+    position: absolute;
+    bottom: -15px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    background-color: #e27a46;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.service-list p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.service-price {
+    color: #e27a46;
+    font-weight: bold;
+}
+
+.btn-appointment {
+    background-color: #e27a46;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-appointment {
+    background-color: #d2691e;
+}
+
+.reservation-section {
+    background-color: #e27a46;
+    color: white;
+    position: relative;
+}
+
+.reservation-title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.reservation-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.reservation-form label {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+    .form-control::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+.btn-reservation {
+    background-color: white;
+    color: #e27a46;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .btn-reservation:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+.reservation-section .decorative-lines {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 0.3;
+}
+/* Section Galerie */
+.gallery-section {
+    background-color: #f9f5f0;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.gallery-images .col-lg-2, .gallery-images .col-lg-4 {
+    padding: 0.5rem;
+}
+
+.gallery-images img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Section Avis */
+.reviews-section {
+    background-color: #f9f5f0;
+}
+
+.review-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-text {
+    font-size: 1rem;
+    font-style: italic;
+    color: #333;
+}
+
+.review-avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.review-name {
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.review-role {
+    font-size: 0.9rem;
+    color: #666;
+}

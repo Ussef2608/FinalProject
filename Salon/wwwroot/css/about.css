@@ -1,0 +1,92 @@
+#first {
+    height: 50vh;
+    background-image: url('/Photos/bg-home.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.body{
+    background-color: #FFF9F9;
+}
+.about-section {
+    background-color: #f9f5f0;
+    color: #333;
+}
+
+.about-title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-description {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.decorative-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-20%, -20%);
+}
+
+.statistics {
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+}
+
+.stat-number {
+    color: #e27a46;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.stat-description {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+}
+
+.branches-section {
+    position: relative;
+    background-color: #f9f5f0;
+    padding: 3rem 0;
+}
+
+.background-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.branch-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -2rem; /* Surélève la carte */
+    padding: 20px;
+}
+
+.branch-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.branch-title {
+    font-weight: bold;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.branch-card p {
+    color: #666;
+    font-size: 0.9rem;
+}
