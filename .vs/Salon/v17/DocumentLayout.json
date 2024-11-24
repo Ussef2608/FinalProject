@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\testme\\Desktop\\FinalProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\views\\produit\\createproduit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\produit\\createproduit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\views\\produit\\indexproduit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\produit\\indexproduit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\views\\service\\editservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\service\\editservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\views\\service\\indexservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\service\\indexservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\views\\service\\createservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\service\\createservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\testme\\desktop\\finalproject\\salon\\migrations\\20241124043347_removeimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\migrations\\20241124043347_removeimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,88 +58,163 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateProduit.cshtml",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Produit\\CreateProduit.cshtml",
+              "RelativeDocumentMoniker": "Salon\\Views\\Produit\\CreateProduit.cshtml",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Produit\\CreateProduit.cshtml",
+              "RelativeToolTip": "Salon\\Views\\Produit\\CreateProduit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T14:45:27.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IndexProduit.cshtml",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Produit\\IndexProduit.cshtml",
+              "RelativeDocumentMoniker": "Salon\\Views\\Produit\\IndexProduit.cshtml",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Produit\\IndexProduit.cshtml",
+              "RelativeToolTip": "Salon\\Views\\Produit\\IndexProduit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T14:45:24.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "about.cshtml",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Home\\about.cshtml",
+              "RelativeDocumentMoniker": "Salon\\Views\\Home\\about.cshtml",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Home\\about.cshtml",
+              "RelativeToolTip": "Salon\\Views\\Home\\about.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T14:45:18.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Roles\\Index.cshtml",
+              "RelativeDocumentMoniker": "Salon\\Views\\Roles\\Index.cshtml",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Roles\\Index.cshtml",
+              "RelativeToolTip": "Salon\\Views\\Roles\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T14:45:05.971Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Home\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "Salon\\Views\\Home\\Dashboard.cshtml",
               "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Home\\Dashboard.cshtml",
               "RelativeToolTip": "Salon\\Views\\Home\\Dashboard.cshtml",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAQwHMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T22:12:39.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Test.cshtml",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Home\\Test.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Views\\Home\\Test.cshtml",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Home\\Test.cshtml",
-              "RelativeToolTip": "Salon\\Views\\Home\\Test.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T20:57:23.974Z",
+              "WhenOpened": "2024-11-24T14:45:00.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "index.css",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\wwwroot\\css\\index.css",
-              "RelativeDocumentMoniker": "Salon\\wwwroot\\css\\index.css",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\wwwroot\\css\\index.css",
-              "RelativeToolTip": "Salon\\wwwroot\\css\\index.css",
-              "ViewState": "AgIAANcAAAAAAAAAAAAcwBIBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-22T20:54:52.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Salon\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAACIBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T20:39:41.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\appsettings.json",
-              "RelativeDocumentMoniker": "Salon\\appsettings.json",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\appsettings.json",
-              "RelativeToolTip": "Salon\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-22T20:29:22.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Program.cs",
               "RelativeDocumentMoniker": "Salon\\Program.cs",
               "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Program.cs",
               "RelativeToolTip": "Salon\\Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAowEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T20:29:16.46Z",
+              "WhenOpened": "2024-11-24T14:44:20.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20241124043347_removeimage.cs",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Migrations\\20241124043347_removeimage.cs",
+              "RelativeDocumentMoniker": "Salon\\Migrations\\20241124043347_removeimage.cs",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Migrations\\20241124043347_removeimage.cs",
+              "RelativeToolTip": "Salon\\Migrations\\20241124043347_removeimage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T04:33:47.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "Salon\\Models\\Service.cs",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Models\\Service.cs",
+              "RelativeToolTip": "Salon\\Models\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T04:33:19.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IndexService.cshtml",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Service\\IndexService.cshtml",
+              "RelativeDocumentMoniker": "Salon\\Views\\Service\\IndexService.cshtml",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Service\\IndexService.cshtml",
+              "RelativeToolTip": "Salon\\Views\\Service\\IndexService.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T04:27:47.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "Salon\\Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "Salon\\Controllers\\ServiceController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwEwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T04:21:57.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateService.cshtml",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Service\\CreateService.cshtml",
+              "RelativeDocumentMoniker": "Salon\\Views\\Service\\CreateService.cshtml",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Service\\CreateService.cshtml",
+              "RelativeToolTip": "Salon\\Views\\Service\\CreateService.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwB8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T04:21:24.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditService.cshtml",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Service\\EditService.cshtml",
+              "RelativeDocumentMoniker": "Salon\\Views\\Service\\EditService.cshtml",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\FinalProject\\Salon\\Views\\Service\\EditService.cshtml",
+              "RelativeToolTip": "Salon\\Views\\Service\\EditService.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T04:21:24.092Z",
               "EditorCaption": ""
             }
           ]

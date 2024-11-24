@@ -763,6 +763,7 @@ wwwroot\Photos\process-of-making-trendy-hairstyle-in-beauty-salon-2021-08-29-01-
 wwwroot\Photos\salon.jpg
 wwwroot\Photos\sbagha.jpg
 wwwroot\Photos\service.jpg
+wwwroot\Photos\Service\cd75d4af-1005-4a4e-b7e0-5d6e21759923.png
 wwwroot\Photos\video.mp4
 wwwroot\Photos\wherePic.png
 wwwroot\Photos\woman-with-creative-yellow-coloring-hair-and-makeu-2021-11-30-03-59-50-utc-800x534.jpg

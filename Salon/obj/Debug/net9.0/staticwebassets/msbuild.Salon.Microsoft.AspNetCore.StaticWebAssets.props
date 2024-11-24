@@ -11268,6 +11268,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Photos\service.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Photos\Service\cd75d4af-1005-4a4e-b7e0-5d6e21759923.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Salon</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Salon</BasePath>
+      <RelativePath>Photos/Service/cd75d4af-1005-4a4e-b7e0-5d6e21759923.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qvmj8fyydl</Fingerprint>
+      <Integrity>lj4wtBvl3BYAF/CjQ5UbWZCGmEgvdGwZ/hDfDQuj+Zg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Photos\Service\cd75d4af-1005-4a4e-b7e0-5d6e21759923.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Photos\video.mp4'))">
       <SourceType>Package</SourceType>
       <SourceId>Salon</SourceId>

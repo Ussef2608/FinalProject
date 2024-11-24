@@ -1,0 +1,51 @@
+﻿@model Salon.ViewModel.ServiceViewModel
+
+<div class="container py-4">
+    <h2 class="text-center mb-4">Modifier le Service</h2>
+
+    <form asp-action="EditService" method="post" class="needs-validation" novalidate>
+        <!-- Hidden input for ID -->
+        <input type="hidden" asp-for="Id" />
+
+        <div class="row">
+            <!-- Champ Nom -->
+            <div class="col-md-6 mb-3">
+                <label asp-for="Nom" class="form-label">Nom</label>
+                <input asp-for="Nom" class="form-control" />
+                <span asp-validation-for="Nom" class="text-danger"></span>
+            </div>
+
+            <!-- Champ Type de Soins -->
+            <div class="col-md-6 mb-3">
+                <label asp-for="TypeDeSoins" class="form-label">Type de Soins</label>
+                <input asp-for="TypeDeSoins" class="form-control" />
+                <span asp-validation-for="TypeDeSoins" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Champ Description -->
+            <div class="col-md-12 mb-3">
+                <label asp-for="Description" class="form-label">Description</label>
+                <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Champ Prix -->
+            <div class="col-md-6 mb-3">
+                <label asp-for="Prix" class="form-label">Prix</label>
+                <input asp-for="Prix" type="number" step="0.01" class="form-control" />
+                <span asp-validation-for="Prix" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-success btn-lg">
+                <i class="fa fa-save"></i> Enregistrer
+            </button>
+            <a asp-action="Index" class="btn btn-secondary btn-lg ms-3">Annuler</a>
+        </div>
+    </form>
+</div>

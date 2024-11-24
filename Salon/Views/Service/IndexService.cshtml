@@ -1,25 +1,73 @@
 ﻿@model IEnumerable<Salon.Models.Service>
-<h2>Liste des Services</h2>
-<a asp-action="CreateService" class="btn btn-primary">Ajouter un service</a>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Nom</th>
-            <th>Description</th>
-            <th>Prix</th>
-            <th>Type de Soins</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var service in Model)
-        {
+<div class="container py-4">
+    <h2 class="text-center mb-4">Liste des Services</h2>
+
+    <div class="d-flex justify-content-end mb-3">
+        <a asp-action="CreateService" class="btn btn-primary btn-sm">
+            <i class="fa fa-plus"></i> Ajouter un Service
+        </a>
+    </div>
+
+    <table class="table table-striped table-hover">
+        <thead class="thead-dark">
             <tr>
-                <td>@service.Nom</td>
-                <td>@service.Description</td>
-                <td>@service.Prix</td>
-                <td>@service.TypeDeSoins</td>
+                <th>Nom</th>
+                <th>Description</th>
+                <th>Prix</th>
+                <th>Type de Soins</th>
+                <th>Actions</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="6" class="text-center">Aucun service disponible.</td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var service in Model)
+                {
+                    <tr>
+                        <!-- Affichage de l'image -->
+                        
+                        <td>@service.Nom</td>
+                        <td>@service.Description</td>
+                        <td>@service.Prix.ToString("C")</td>
+                        <td>@service.TypeDeSoins</td>
+                        <td>
+                            <a asp-action="EditService" asp-route-id="@service.Id" class="btn btn-warning btn-sm">
+                                <i class="fa fa-edit"></i> Modifier
+                            </a>
+                            <button type="button" class="btn btn-danger btn-sm" onclick="confirmDelete(@service.Id)">
+                                <i class="fa fa-trash"></i> Supprimer
+                            </button>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function confirmDelete(id) {
+        Swal.fire({
+            title: "Êtes-vous sûr ?",
+            text: "Cette action est irréversible !",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Oui, supprimer !",
+            cancelButtonText: "Annuler"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = "/Service/DeleteService/" + id;
+            }
+        });
+    }
+</script>
