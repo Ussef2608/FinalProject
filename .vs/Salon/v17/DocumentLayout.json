@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\maelf\\source\\repos\\FinalProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -94,11 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
@@ -110,8 +114,25 @@
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\appsettings.json",
+              "RelativeDocumentMoniker": "Salon\\appsettings.json",
+              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\appsettings.json",
+              "RelativeToolTip": "Salon\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-24T17:32:03.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "IndexProduit.cshtml",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Produit\\IndexProduit.cshtml",
               "RelativeDocumentMoniker": "Salon\\Views\\Produit\\IndexProduit.cshtml",
@@ -119,12 +140,11 @@
               "RelativeToolTip": "Salon\\Views\\Produit\\IndexProduit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T16:31:54.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T16:31:54.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ProduitController.cs",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\ProduitController.cs",
               "RelativeDocumentMoniker": "Salon\\Controllers\\ProduitController.cs",
@@ -132,12 +152,11 @@
               "RelativeToolTip": "Salon\\Controllers\\ProduitController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T16:24:16.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T16:24:16.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_Layout1.cshtml",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Shared\\_Layout1.cshtml",
               "RelativeDocumentMoniker": "Salon\\Views\\Shared\\_Layout1.cshtml",
@@ -145,12 +164,11 @@
               "RelativeToolTip": "Salon\\Views\\Shared\\_Layout1.cshtml",
               "ViewState": "AgIAAEEAAAAAAAAAAAAAAFcAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T23:24:22.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T23:24:22.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Salon\\Controllers\\AdminController.cs",
@@ -158,25 +176,36 @@
               "RelativeToolTip": "Salon\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T16:13:36.655Z",
+              "WhenOpened": "2024-11-22T16:13:36.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Program.cs",
+              "RelativeDocumentMoniker": "Salon\\Program.cs",
+              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Program.cs",
+              "RelativeToolTip": "Salon\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T22:13:31.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ServiceController.cs",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\ServiceController.cs",
               "RelativeDocumentMoniker": "Salon\\Controllers\\ServiceController.cs",
               "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\ServiceController.cs",
               "RelativeToolTip": "Salon\\Controllers\\ServiceController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T16:18:53.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T16:18:53.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CreateProduit.cshtml",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Produit\\CreateProduit.cshtml",
               "RelativeDocumentMoniker": "Salon\\Views\\Produit\\CreateProduit.cshtml",
@@ -184,12 +213,11 @@
               "RelativeToolTip": "Salon\\Views\\Produit\\CreateProduit.cshtml",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T16:32:30.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T16:32:30.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CreateService.cshtml",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Service\\CreateService.cshtml",
               "RelativeDocumentMoniker": "Salon\\Views\\Service\\CreateService.cshtml",
@@ -197,12 +225,11 @@
               "RelativeToolTip": "Salon\\Views\\Service\\CreateService.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T16:30:50.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T16:30:50.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "IndexService.cshtml",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Service\\IndexService.cshtml",
               "RelativeDocumentMoniker": "Salon\\Views\\Service\\IndexService.cshtml",
@@ -210,12 +237,11 @@
               "RelativeToolTip": "Salon\\Views\\Service\\IndexService.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T16:29:27.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T16:29:27.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Salon\\Controllers\\HomeController.cs",
@@ -223,16 +249,11 @@
               "RelativeToolTip": "Salon\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T16:17:39.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2024-11-22T16:17:39.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "RolesController.cs",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\RolesController.cs",
               "RelativeDocumentMoniker": "Salon\\Controllers\\RolesController.cs",
@@ -240,12 +261,11 @@
               "RelativeToolTip": "Salon\\Controllers\\RolesController.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAuwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T22:27:17.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T22:27:17.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Home\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "Salon\\Views\\Home\\Dashboard.cshtml",
@@ -253,12 +273,11 @@
               "RelativeToolTip": "Salon\\Views\\Home\\Dashboard.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T23:20:51.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T23:20:51.273Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Salon\\Views\\Shared\\_Layout.cshtml",
@@ -266,25 +285,11 @@
               "RelativeToolTip": "Salon\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T23:25:33.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T23:25:33.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Program.cs",
-              "RelativeDocumentMoniker": "Salon\\Program.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Program.cs",
-              "RelativeToolTip": "Salon\\Program.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAADwAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T22:13:31.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -292,12 +297,11 @@
               "RelativeToolTip": "Salon\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ViewState": "AgIAAJcAAAAAAAAAAAAAAKoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T15:39:13.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T15:39:13.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -305,12 +309,11 @@
               "RelativeToolTip": "Salon\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ViewState": "AgIAAGgAAAAAAAAAAAAjwHYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T15:46:07.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T15:46:07.669Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Salon\\Views\\Home\\Index.cshtml",
@@ -318,12 +321,11 @@
               "RelativeToolTip": "Salon\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAHMAAAAAAAAAAAAAAIkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T22:14:42.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T22:14:42.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Salon\\Views\\Shared\\_LoginPartial.cshtml",
@@ -335,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -347,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -359,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "addRoles.cshtml",
               "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Roles\\addRoles.cshtml",
               "RelativeDocumentMoniker": "Salon\\Views\\Roles\\addRoles.cshtml",
