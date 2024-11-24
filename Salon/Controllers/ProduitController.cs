@@ -11,14 +11,20 @@ namespace Salon.Controllers
     {
         private readonly AppDbContext _context;
 
+        public ProduitController(AppDbContext context)
+        {
+            _context = context;
+        }
+
         // ----------------------------
         // Actions CRUD pour Produit
         // ----------------------------
         public async Task<IActionResult> IndexProduit()
         {
-            var produits = await _context.Produits
-           .Include(p => p.Fournisseur) // Charge les données des fournisseurs
-           .ToListAsync();
+            var produits = await _context.Produits.
+                Include(p => p.Fournisseur).
+                ToListAsync();
+
             return View(produits);
         }
 

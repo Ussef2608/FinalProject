@@ -26,8 +26,11 @@ namespace Salon.Controllers
         {
             return View();
         }
-
-        [Authorize(Roles = clsRoles.roleAdmin)]
+        public IActionResult Test()
+        {
+            return View();
+        }
+        //[Authorize(Roles = clsRoles.roleAdmin)]
         public IActionResult Dashboard()
         {
             return View();

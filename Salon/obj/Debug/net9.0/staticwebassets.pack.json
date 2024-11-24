@@ -89,8 +89,12 @@
       "PackagePath": "staticwebassets\\Photos\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\Fox - The Luxury Salon  Commercial Video.mp4",
-      "PackagePath": "staticwebassets\\Photos\\Fox - The Luxury Salon  Commercial Video.mp4"
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\Fox.mp4",
+      "PackagePath": "staticwebassets\\Photos\\Fox.mp4"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\Service\\cd75d4af-1005-4a4e-b7e0-5d6e21759923.png",
+      "PackagePath": "staticwebassets\\Photos\\Service\\cd75d4af-1005-4a4e-b7e0-5d6e21759923.png"
     },
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\award.png",
@@ -199,6 +203,10 @@
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\service.jpg",
       "PackagePath": "staticwebassets\\Photos\\service.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\video.mp4",
+      "PackagePath": "staticwebassets\\Photos\\video.mp4"
     },
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\wherePic.png",
@@ -2245,6 +2253,10 @@
       "PackagePath": "staticwebassets\\css\\catalogue.css"
     },
     {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\css\\service.css",
       "PackagePath": "staticwebassets\\css\\service.css"
     },
@@ -2259,6 +2271,10 @@
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\images\\services\\8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068.jpg",
+      "PackagePath": "staticwebassets\\images\\services\\8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068.jpg"
     },
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\js\\app.js",

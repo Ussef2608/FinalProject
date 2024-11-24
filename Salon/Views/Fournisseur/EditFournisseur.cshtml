@@ -1,0 +1,59 @@
+﻿
+@model Salon.Models.Fournisseur
+
+<div class="container py-4">
+    <h2 class="text-center mb-4">Modifier le Fournisseur</h2>
+
+    <form asp-action="EditFournisseur" method="post" class="needs-validation" novalidate>
+        <input type="hidden" name="Id" value="@Model.Id" />
+
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="Nom" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="Nom" name="Nom" value="@Model.Nom" required />
+                <span asp-validation-for="Nom" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label for="Contact" class="form-label">Contact</label>
+                <input type="text" class="form-control" id="Contact" name="Contact" value="@Model.Contact" required />
+                <span asp-validation-for="Contact" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="Email" name="Email" value="@Model.Email" required />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label for="Adresse" class="form-label">Adresse</label>
+                <input type="text" class="form-control" id="Adresse" name="Adresse" value="@Model.Adresse" required />
+                <span asp-validation-for="Adresse" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="Ville" class="form-label">Ville</label>
+                <input type="text" class="form-control" id="Ville" name="Ville" value="@Model.Ville" required />
+                <span asp-validation-for="Ville" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label for="Pays" class="form-label">Pays</label>
+                <input type="text" class="form-control" id="Pays" name="Pays" value="@Model.Pays" required />
+                <span asp-validation-for="Pays" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-success btn-lg">
+                <i class="fa fa-save"></i> Enregistrer
+            </button>
+            <a asp-action="IndexFournisseur" class="btn btn-secondary btn-lg ms-3">Annuler</a>
+        </div>
+    </form>
+</div>

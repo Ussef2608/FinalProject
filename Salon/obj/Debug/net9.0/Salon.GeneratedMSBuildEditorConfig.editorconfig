@@ -188,12 +188,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maelf/source/repos/FinalProject/Salon/Views/Admin/CreateFournisseur.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlRm91cm5pc3NldXIuY3NodG1s
+[C:/Users/maelf/source/repos/FinalProject/Salon/Views/Fournisseur/CreateFournisseur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91cm5pc3NldXJcQ3JlYXRlRm91cm5pc3NldXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maelf/source/repos/FinalProject/Salon/Views/Admin/IndexFournisseur.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXhGb3Vybmlzc2V1ci5jc2h0bWw=
+[C:/Users/maelf/source/repos/FinalProject/Salon/Views/Fournisseur/EditFournisseur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91cm5pc3NldXJcRWRpdEZvdXJuaXNzZXVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maelf/source/repos/FinalProject/Salon/Views/Fournisseur/IndexFournisseur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91cm5pc3NldXJcSW5kZXhGb3Vybmlzc2V1ci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/maelf/source/repos/FinalProject/Salon/Views/Home/about.cshtml]
@@ -228,6 +232,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/maelf/source/repos/FinalProject/Salon/Views/Home/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/maelf/source/repos/FinalProject/Salon/Views/Produit/CreateProduit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVpdFxDcmVhdGVQcm9kdWl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -246,6 +254,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/maelf/source/repos/FinalProject/Salon/Views/Service/CreateService.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxDcmVhdGVTZXJ2aWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maelf/source/repos/FinalProject/Salon/Views/Service/EditService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxFZGl0U2VydmljZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/maelf/source/repos/FinalProject/Salon/Views/Service/IndexService.cshtml]

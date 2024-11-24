@@ -63,6 +63,7 @@ C:\Users\maelf\source\repos\FinalProject\Salon\wwwroot\lib\bootstrap\dist\css\bo
 C:\Users\maelf\source\repos\FinalProject\Salon\wwwroot\assets\js\plugins\nouislider.min.js
 C:\Users\maelf\source\repos\FinalProject\Salon\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
 C:\Users\maelf\source\repos\FinalProject\Salon\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\maelf\source\repos\FinalProject\Salon\wwwroot\css\index.css
 C:\Users\maelf\source\repos\FinalProject\Salon\wwwroot\css\app.css
 C:\Users\maelf\source\repos\FinalProject\Salon\wwwroot\assets\js\core\bootstrap.bundle.min.js
 C:\Users\maelf\source\repos\FinalProject\Salon\wwwroot\assets\img\bootstrap-5.svg
@@ -645,10 +646,12 @@ wwwroot\assets\scss\soft-ui-dashboard\variables\_virtual-reality.scss
 wwwroot\css\about.css
 wwwroot\css\app.css
 wwwroot\css\catalogue.css
+wwwroot\css\index.css
 wwwroot\css\service.css
 wwwroot\css\site.css
 wwwroot\css\test.css
 wwwroot\favicon.ico
+wwwroot\images\services\8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068.jpg
 wwwroot\js\app.js
 wwwroot\js\bootstrap.js
 wwwroot\js\site.js
@@ -741,7 +744,7 @@ wwwroot\Photos\bg-video-800x534.jpg
 wwwroot\Photos\coiffeur.jpg
 wwwroot\Photos\eyelash-extensions-in-a-beauty-salon-a-young-girl-2021-10-21-02-41-59-utc-1-800x534.jpg
 wwwroot\Photos\focused-hairdresser-works-drying-the-hair-of-a-bea-2021-09-24-04-23-52-utc.jpg
-wwwroot\Photos\Fox - The Luxury Salon  Commercial Video.mp4
+wwwroot\Photos\Fox.mp4
 wwwroot\Photos\hairdresser-cutting-client-s-hair-in-salon-with-el-800x666.jpg
 wwwroot\Photos\image-service-detail-01-800x469.jpg
 wwwroot\Photos\images-home-01-800x781.jpg
@@ -761,5 +764,7 @@ wwwroot\Photos\process-of-making-trendy-hairstyle-in-beauty-salon-2021-08-29-01-
 wwwroot\Photos\salon.jpg
 wwwroot\Photos\sbagha.jpg
 wwwroot\Photos\service.jpg
+wwwroot\Photos\Service\cd75d4af-1005-4a4e-b7e0-5d6e21759923.png
+wwwroot\Photos\video.mp4
 wwwroot\Photos\wherePic.png
 wwwroot\Photos\woman-with-creative-yellow-coloring-hair-and-makeu-2021-11-30-03-59-50-utc-800x534.jpg

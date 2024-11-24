@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KlrPukrveqntO3MvhiGW1dmvdzhAUySUFwXxDeij1ok=",
+  "Hash": "paWmqGW4pmBitVTQ6xf5bV1iLDnMuabaFBVDUdiZxjI=",
   "Source": "Salon",
   "BasePath": "_content/Salon",
   "Mode": "Default",
@@ -3312,6 +3312,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\obj\\Debug\\net9.0\\compressed\\jeo5go38bd-67gj298fnw.gz",
+      "SourceId": "Salon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Salon",
+      "RelativePath": "css/index#[.{fingerprint=67gj298fnw}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\css\\index.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "qfrg782h22",
+      "Integrity": "5tXOlxf4poxNA80gjBcy17KS4uFBxWdNJTTv+HznjOI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\css\\index.css"
     },
     {
       "Identity": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\obj\\Debug\\net9.0\\compressed\\jks3516ys0-5ipweew5fc.gz",
@@ -16313,6 +16334,27 @@
       "OriginalItemSpec": "wwwroot\\css\\catalogue.css"
     },
     {
+      "Identity": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\css\\index.css",
+      "SourceId": "Salon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\",
+      "BasePath": "_content/Salon",
+      "RelativePath": "css/index#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "67gj298fnw",
+      "Integrity": "wh6GU0e5654mSXF3DDsmDRC0pi0h2TEh9GUXpdnqRB8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
       "Identity": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\css\\service.css",
       "SourceId": "Salon",
       "SourceType": "Discovered",
@@ -16395,6 +16437,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\images\\services\\8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068.jpg",
+      "SourceId": "Salon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\",
+      "BasePath": "_content/Salon",
+      "RelativePath": "images/services/8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kc8ym3o67u",
+      "Integrity": "xCDaEYLhF6lvYJk44YRx5mmW4vcKpwsddg9d907m1NA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\services\\8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068.jpg"
     },
     {
       "Identity": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\js\\app.js",
@@ -18329,12 +18392,12 @@
       "OriginalItemSpec": "wwwroot\\Photos\\focused-hairdresser-works-drying-the-hair-of-a-bea-2021-09-24-04-23-52-utc.jpg"
     },
     {
-      "Identity": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\Fox - The Luxury Salon  Commercial Video.mp4",
+      "Identity": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\Fox.mp4",
       "SourceId": "Salon",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\",
       "BasePath": "_content/Salon",
-      "RelativePath": "Photos/Fox - The Luxury Salon  Commercial Video#[.{fingerprint}]?.mp4",
+      "RelativePath": "Photos/Fox#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -18347,7 +18410,7 @@
       "Integrity": "OBti0420pfnXmHy7Y9T3BRtzJkIFvpwIvn48t3gIJCg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Photos\\Fox - The Luxury Salon  Commercial Video.mp4"
+      "OriginalItemSpec": "wwwroot\\Photos\\Fox.mp4"
     },
     {
       "Identity": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\hairdresser-cutting-client-s-hair-in-salon-with-el-800x666.jpg",
@@ -18747,6 +18810,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Photos\\service.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\Service\\cd75d4af-1005-4a4e-b7e0-5d6e21759923.png",
+      "SourceId": "Salon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\",
+      "BasePath": "_content/Salon",
+      "RelativePath": "Photos/Service/cd75d4af-1005-4a4e-b7e0-5d6e21759923#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qvmj8fyydl",
+      "Integrity": "lj4wtBvl3BYAF/CjQ5UbWZCGmEgvdGwZ/hDfDQuj+Zg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Photos\\Service\\cd75d4af-1005-4a4e-b7e0-5d6e21759923.png"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\video.mp4",
+      "SourceId": "Salon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\",
+      "BasePath": "_content/Salon",
+      "RelativePath": "Photos/video#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cv60i850gs",
+      "Integrity": "OBti0420pfnXmHy7Y9T3BRtzJkIFvpwIvn48t3gIJCg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Photos\\video.mp4"
     },
     {
       "Identity": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\wherePic.png",
@@ -76083,6 +76188,304 @@
       ]
     },
     {
+      "Route": "css/index.67gj298fnw.css",
+      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\obj\\Debug\\net9.0\\compressed\\jeo5go38bd-67gj298fnw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000571755289"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1748"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5tXOlxf4poxNA80gjBcy17KS4uFBxWdNJTTv+HznjOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wh6GU0e5654mSXF3DDsmDRC0pi0h2TEh9GUXpdnqRB8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "67gj298fnw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wh6GU0e5654mSXF3DDsmDRC0pi0h2TEh9GUXpdnqRB8="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.67gj298fnw.css",
+      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wh6GU0e5654mSXF3DDsmDRC0pi0h2TEh9GUXpdnqRB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "67gj298fnw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wh6GU0e5654mSXF3DDsmDRC0pi0h2TEh9GUXpdnqRB8="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.67gj298fnw.css.gz",
+      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\obj\\Debug\\net9.0\\compressed\\jeo5go38bd-67gj298fnw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5tXOlxf4poxNA80gjBcy17KS4uFBxWdNJTTv+HznjOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "67gj298fnw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5tXOlxf4poxNA80gjBcy17KS4uFBxWdNJTTv+HznjOI="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css",
+      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\obj\\Debug\\net9.0\\compressed\\jeo5go38bd-67gj298fnw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000571755289"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1748"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5tXOlxf4poxNA80gjBcy17KS4uFBxWdNJTTv+HznjOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wh6GU0e5654mSXF3DDsmDRC0pi0h2TEh9GUXpdnqRB8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wh6GU0e5654mSXF3DDsmDRC0pi0h2TEh9GUXpdnqRB8="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css",
+      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wh6GU0e5654mSXF3DDsmDRC0pi0h2TEh9GUXpdnqRB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wh6GU0e5654mSXF3DDsmDRC0pi0h2TEh9GUXpdnqRB8="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css.gz",
+      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\obj\\Debug\\net9.0\\compressed\\jeo5go38bd-67gj298fnw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5tXOlxf4poxNA80gjBcy17KS4uFBxWdNJTTv+HznjOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5tXOlxf4poxNA80gjBcy17KS4uFBxWdNJTTv+HznjOI="
+        }
+      ]
+    },
+    {
       "Route": "css/service.css",
       "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\obj\\Debug\\net9.0\\compressed\\xg41qd1qrc-mdyd960q02.gz",
       "Selectors": [
@@ -85876,6 +86279,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-1HkjQSVuV0/ji/X/lGeDTHeagBS0BwopMrHDQuwqgtU="
+        }
+      ]
+    },
+    {
+      "Route": "images/services/8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068.jpg",
+      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\images\\services\\8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "517013"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xCDaEYLhF6lvYJk44YRx5mmW4vcKpwsddg9d907m1NA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 18:57:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xCDaEYLhF6lvYJk44YRx5mmW4vcKpwsddg9d907m1NA="
+        }
+      ]
+    },
+    {
+      "Route": "images/services/8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068.kc8ym3o67u.jpg",
+      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\images\\services\\8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "517013"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xCDaEYLhF6lvYJk44YRx5mmW4vcKpwsddg9d907m1NA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 18:57:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kc8ym3o67u"
+        },
+        {
+          "Name": "label",
+          "Value": "images/services/8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xCDaEYLhF6lvYJk44YRx5mmW4vcKpwsddg9d907m1NA="
         }
       ]
     },
@@ -109073,8 +109558,8 @@
       ]
     },
     {
-      "Route": "Photos/Fox - The Luxury Salon  Commercial Video.cv60i850gs.mp4",
-      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\Fox - The Luxury Salon  Commercial Video.mp4",
+      "Route": "Photos/Fox.cv60i850gs.mp4",
+      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\Fox.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -109095,7 +109580,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 21:25:34 GMT"
+          "Value": "Sun, 24 Nov 2024 17:41:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -109109,7 +109594,7 @@
         },
         {
           "Name": "label",
-          "Value": "Photos/Fox - The Luxury Salon  Commercial Video.mp4"
+          "Value": "Photos/Fox.mp4"
         },
         {
           "Name": "integrity",
@@ -109118,8 +109603,8 @@
       ]
     },
     {
-      "Route": "Photos/Fox - The Luxury Salon  Commercial Video.mp4",
-      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\Fox - The Luxury Salon  Commercial Video.mp4",
+      "Route": "Photos/Fox.mp4",
+      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\Fox.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -109140,7 +109625,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 21:25:34 GMT"
+          "Value": "Sun, 24 Nov 2024 17:41:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -110709,6 +111194,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-YXJhB9qVzNYGCTynuCMauD06Jsh3XrV9nKTEUCrqR8M="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/Service/cd75d4af-1005-4a4e-b7e0-5d6e21759923.png",
+      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\Service\\cd75d4af-1005-4a4e-b7e0-5d6e21759923.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lj4wtBvl3BYAF/CjQ5UbWZCGmEgvdGwZ/hDfDQuj+Zg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lj4wtBvl3BYAF/CjQ5UbWZCGmEgvdGwZ/hDfDQuj+Zg="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/Service/cd75d4af-1005-4a4e-b7e0-5d6e21759923.qvmj8fyydl.png",
+      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\Service\\cd75d4af-1005-4a4e-b7e0-5d6e21759923.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lj4wtBvl3BYAF/CjQ5UbWZCGmEgvdGwZ/hDfDQuj+Zg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qvmj8fyydl"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/Service/cd75d4af-1005-4a4e-b7e0-5d6e21759923.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lj4wtBvl3BYAF/CjQ5UbWZCGmEgvdGwZ/hDfDQuj+Zg="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/video.cv60i850gs.mp4",
+      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\video.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2459825"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OBti0420pfnXmHy7Y9T3BRtzJkIFvpwIvn48t3gIJCg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cv60i850gs"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/video.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OBti0420pfnXmHy7Y9T3BRtzJkIFvpwIvn48t3gIJCg="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/video.mp4",
+      "AssetFile": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\Photos\\video.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2459825"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OBti0420pfnXmHy7Y9T3BRtzJkIFvpwIvn48t3gIJCg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OBti0420pfnXmHy7Y9T3BRtzJkIFvpwIvn48t3gIJCg="
         }
       ]
     },
