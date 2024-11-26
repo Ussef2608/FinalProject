@@ -21,6 +21,7 @@ namespace Salon.Controllers
         {
             var services = _context.Services.ToList(); // Récupérez les données depuis la base de données
             return View(services);  // Passez les données à la vue
+            //return View("~/Views/Home/ProduitSite/Home.cshtml");
         }
          public IActionResult Signup()
         {
@@ -55,22 +56,7 @@ namespace Salon.Controllers
         {
             return View();
         }
-        public IActionResult Hassane()
-        {
-            return View("~/Views/Home/Home.cshtml");
-        }
-        public IActionResult AboutProduit()
-        {
-            return View();
-        }
-        public IActionResult Blog()
-        {
-            return View();
-        }
-        public IActionResult Contact()
-        {
-            return View();
-        }
+        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

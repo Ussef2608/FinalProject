@@ -3,27 +3,32 @@
 <div class="container py-4">
     <h2 class="text-center mb-4">Modifier le Service</h2>
 
-    <form asp-action="EditService" method="post" enctype="multipart/form-data">
+    <form action="EditService" method="post" enctype="multipart/form-data">
+        <!-- Champ caché pour l'ID -->
         <input type="hidden" asp-for="Id" />
 
+        <!-- Champ pour le nom -->
         <div class="form-group">
             <label asp-for="Nom"></label>
             <input asp-for="Nom" class="form-control" />
             <span asp-validation-for="Nom" class="text-danger"></span>
         </div>
 
+        <!-- Champ pour la description -->
         <div class="form-group">
             <label asp-for="Description"></label>
             <textarea asp-for="Description" class="form-control"></textarea>
             <span asp-validation-for="Description" class="text-danger"></span>
         </div>
 
+        <!-- Champ pour le prix -->
         <div class="form-group">
             <label asp-for="Prix"></label>
             <input asp-for="Prix" type="number" step="0.01" class="form-control" />
             <span asp-validation-for="Prix" class="text-danger"></span>
         </div>
 
+        <!-- Champ pour le type de soins -->
         <div class="form-group">
             <label asp-for="TypeDeSoins"></label>
             <input asp-for="TypeDeSoins" class="form-control" />
@@ -34,7 +39,7 @@
         <div class="form-group">
             <label>Image actuelle</label>
             <div>
-                <img src="@Url.Content("~/images/services/" + Model.ImagePath)" alt="Image actuelle" style="max-width: 150px; max-height: 150px;" />
+                <img src="/images/services/@Model.ImagePath" alt="Image actuelle" style="max-width: 150px; max-height: 150px;" />
             </div>
         </div>
 
@@ -45,7 +50,7 @@
             <span asp-validation-for="ImageFile" class="text-danger"></span>
         </div>
 
+        <!-- Bouton de soumission -->
         <button type="submit" class="btn btn-primary">Modifier</button>
     </form>
-
 </div>

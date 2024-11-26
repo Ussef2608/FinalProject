@@ -60,9 +60,9 @@ app.MapControllerRoute(
     defaults: new { controller = "Home", action = "Dashboard" });
 
 app.MapControllerRoute(
-    name: "Hassane",
-    pattern: "Hassane",
-    defaults: new { controller = "Home", action = "Hassane" });
+    name: "ProduitSiteIndex",
+    pattern: "ProduitSiteIndex",
+    defaults: new { controller = "ProduitSiteController", action = "Index" });
 
 
 

@@ -66,7 +66,7 @@ namespace Salon.Controllers
                 }
 
                 // Stocker le chemin relatif pour l'affichage
-                imagePath = $"/images/services/{uniqueFileName}";
+                imagePath =uniqueFileName;
             }
 
             var service = new Service
@@ -112,10 +112,7 @@ namespace Salon.Controllers
         [HttpPost]
         public async Task<IActionResult> EditService(ServiceViewModel serviceViewModel)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(serviceViewModel);
-            }
+           
 
             var service = await _context.Services.FindAsync(serviceViewModel.Id);
             if (service == null)
@@ -123,15 +120,20 @@ namespace Salon.Controllers
                 return NotFound();
             }
 
-            // Mise à jour des champs du service
+            // Variables pour les chemins d'images
+            string oldImagePath = service.ImagePath;
+            string newImagePath = oldImagePath; // Par défaut, la nouvelle image est la même que l'ancienne
+
+            // Mise à jour des champs texte
             service.Nom = serviceViewModel.Nom;
             service.Prix = serviceViewModel.Prix;
             service.Description = serviceViewModel.Description;
             service.TypeDeSoins = serviceViewModel.TypeDeSoins;
 
             // Gestion de l'image
-            if (serviceViewModel.ImageFile != null)
+            if (serviceViewModel.ImageFile != null && serviceViewModel.ImageFile.Length > 0)
             {
+                // Validation de l'extension de fichier
                 var fileExtension = Path.GetExtension(serviceViewModel.ImageFile.FileName).ToLower();
                 var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
 
@@ -141,33 +143,47 @@ namespace Salon.Controllers
                     return View(serviceViewModel);
                 }
 
-                // Supprimez l'ancienne image si nécessaire
-                if (!string.IsNullOrEmpty(service.ImagePath))
-                {
-                    var oldImagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/services", service.ImagePath);
-                    if (System.IO.File.Exists(oldImagePath))
-                    {
-                        System.IO.File.Delete(oldImagePath);
-                    }
-                }
-
-                // Enregistrez la nouvelle image
+                // Générer un nom unique pour le fichier
                 var uniqueFileName = Guid.NewGuid().ToString() + fileExtension;
-                var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/services", uniqueFileName);
+                var imagePath = Path.Combine("wwwroot/images/services", uniqueFileName);
 
+                // Sauvegarder le fichier sur le serveur
                 using (var stream = new FileStream(imagePath, FileMode.Create))
                 {
                     await serviceViewModel.ImageFile.CopyToAsync(stream);
                 }
 
+                // Mettre à jour le chemin de la nouvelle image
+                newImagePath = uniqueFileName;
+
+                // Supprimer l'ancienne image si elle existe
+                if (!string.IsNullOrEmpty(service.ImagePath))
+                {
+                    var fullOldImagePath = Path.Combine("wwwroot/images/services", service.ImagePath);
+                    if (System.IO.File.Exists(fullOldImagePath))
+                    {
+                        System.IO.File.Delete(fullOldImagePath);
+                    }
+                }
+
+                // Mettre à jour le chemin dans le service
                 service.ImagePath = uniqueFileName;
             }
 
+            // Mise à jour du service dans la base de données
             _context.Services.Update(service);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction(nameof(IndexService));
+            // Retourner les chemins d'images
+            return Json(new
+            {
+                Message = "Service mis à jour avec succès",
+                OldImagePath = $"/images/services/{oldImagePath}",
+                NewImagePath = $"/images/services/{newImagePath}"
+            });
         }
+
+
 
 
         // ----------------------------
