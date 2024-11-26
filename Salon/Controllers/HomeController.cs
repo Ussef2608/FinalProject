@@ -55,9 +55,9 @@ namespace Salon.Controllers
         {
             return View();
         }
-        public IActionResult Home()
+        public IActionResult Hassane()
         {
-            return View();
+            return View("~/Views/Home/Home.cshtml");
         }
         public IActionResult AboutProduit()
         {
