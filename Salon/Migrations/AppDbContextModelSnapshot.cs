@@ -351,6 +351,31 @@ namespace Salon.Migrations
                     b.ToTable("Services");
                 });
 
+            modelBuilder.Entity("Salon.Models.ServiceDetails", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Prix")
+                        .HasColumnType("decimal(18, 2)");
+
+                    b.Property<int>("ServiceId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ServiceId");
+
+                    b.ToTable("ServicesDétaillés");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -413,9 +438,25 @@ namespace Salon.Migrations
                     b.Navigation("Fournisseur");
                 });
 
+            modelBuilder.Entity("Salon.Models.ServiceDetails", b =>
+                {
+                    b.HasOne("Salon.Models.Service", "Service")
+                        .WithMany("ServicesDétaillés")
+                        .HasForeignKey("ServiceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Service");
+                });
+
             modelBuilder.Entity("Salon.Models.Fournisseur", b =>
                 {
                     b.Navigation("Produits");
+                });
+
+            modelBuilder.Entity("Salon.Models.Service", b =>
+                {
+                    b.Navigation("ServicesDétaillés");
                 });
 #pragma warning restore 612, 618
         }

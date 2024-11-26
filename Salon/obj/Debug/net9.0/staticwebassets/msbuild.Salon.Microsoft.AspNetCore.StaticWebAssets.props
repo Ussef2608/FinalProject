@@ -9252,23 +9252,59 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\services\8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\services\7dba824e-aa13-4619-95b5-1f426b73e516_firstService.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Salon</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Salon</BasePath>
-      <RelativePath>images/services/8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068.jpg</RelativePath>
+      <RelativePath>images/services/7dba824e-aa13-4619-95b5-1f426b73e516_firstService.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kc8ym3o67u</Fingerprint>
-      <Integrity>xCDaEYLhF6lvYJk44YRx5mmW4vcKpwsddg9d907m1NA=</Integrity>
+      <Fingerprint>rmdwu1xhqn</Fingerprint>
+      <Integrity>A98LXaZHWHhKP4Dog2WGJ7ZHW2lm0veDUr62wCA6Wc8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\services\8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\services\7dba824e-aa13-4619-95b5-1f426b73e516_firstService.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\services\98fe721e-793f-4acf-b063-355541cd2e56_thirdService.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Salon</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Salon</BasePath>
+      <RelativePath>images/services/98fe721e-793f-4acf-b063-355541cd2e56_thirdService.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8qwh3f6qq1</Fingerprint>
+      <Integrity>8B4E7lvgxHhun1qe/nfqba1n04PaDx4gd6YUT/qVK48=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\services\98fe721e-793f-4acf-b063-355541cd2e56_thirdService.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\services\9c639f8a-c6eb-49b0-89f8-e3dea194f1eb_SecondService.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Salon</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Salon</BasePath>
+      <RelativePath>images/services/9c639f8a-c6eb-49b0-89f8-e3dea194f1eb_SecondService.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mku0c5hh81</Fingerprint>
+      <Integrity>xqrX2FpvT/gnxQtau5m/6KZVog2rei8Aj1b7lmL/ETI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\services\9c639f8a-c6eb-49b0-89f8-e3dea194f1eb_SecondService.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\app.js'))">
       <SourceType>Package</SourceType>

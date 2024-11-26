@@ -23,4 +23,11 @@
     <Folder Include="wwwroot\images\services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Views\Home\1.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Salon.Data;
 using Salon.Models;
 
 namespace Salon.Controllers
@@ -8,15 +9,18 @@ namespace Salon.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly AppDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, AppDbContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var services = _context.Services.ToList(); // Récupérez les données depuis la base de données
+            return View(services);  // Passez les données à la vue
         }
          public IActionResult Signup()
         {

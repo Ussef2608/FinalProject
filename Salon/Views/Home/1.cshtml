@@ -1,0 +1,786 @@
+﻿@model IEnumerable<Service>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salon beauty l</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="/css/index.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        #first{
+    height:70vh;
+    background-image:url('/Photos/bg-home.jpg');
+    background-repeat : no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.navbar-nav a{
+    color:black;
+    text-decoration:none;
+}
+
+.btn-price{
+    background-color:navajowhite;
+}
+/* Styles de la section principale */
+.hero-section {
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenu centré */
+.hero-content h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Mot mis en évidence */
+.highlight {
+    position: relative;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+    /* Ajout du symbole étoilé */
+    .highlight::after {
+        content: "✺"; /* Symbol resembling the icon in the design */
+        font-size: 1.5rem;
+        color: #d4884d;
+        position: absolute;
+        right: -20px;
+        top: 5px;
+    }
+
+/* Style du texte descriptif */
+.hero-content p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Bouton de prise de rendez-vous */
+.appointment-button {
+    background-color: #d4884d;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+    .appointment-button:hover {
+        background-color: #b76e3e;
+    }
+/* Image responsive qui dépasse légèrement */
+.responsive-image {
+    width: 100%; /* L'image occupe toute la largeur disponible */
+    max-width: 600px; /* Largeur maximale pour limiter la taille */
+    height: auto; /* Garde le ratio de l'image intact */
+    object-fit: cover; /* Coupe l'image si nécessaire pour qu'elle remplisse bien son conteneur */
+    margin-top: -20px; /* Décalage pour dépasser un peu */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Conteneur parent pour assurer le bon alignement */
+.container {
+    overflow: visible;
+    max-width: auto; /* Limite la largeur totale du conteneur */
+}
+
+/* Image responsive qui s'adapte à son conteneur */
+.responsive-image {
+    width: 100%; /* L'image prend toute la largeur du col-md */
+    height: auto; /* Maintient le ratio de l'image */
+    object-fit: cover; /* S'assure que l'image remplisse bien sans distorsion */
+    max-height: 100vh; /* Empêche l'image d'être trop grande */
+    margin-top: -10px; /* Décalage léger vers le haut */
+    transition: transform 0.3s ease-in-out;
+}
+
+    /* Zoom léger au survol */
+    .responsive-image:hover {
+        transform: scale(1.05); /* Effet zoom au survol */
+        cursor: pointer;
+    }
+
+/* Vidéo responsive */
+.responsive-video {
+    width: 100%; /* Prend toute la largeur du conteneur */
+    height: auto; /* Maintient le ratio de la vidéo */
+    max-height: 90vh; /* Limite la hauteur à 90% de la hauteur de l'écran */
+    display: block; /* Évite les marges inutiles */
+    object-fit: cover; /* Coupe la vidéo si nécessaire pour qu'elle remplisse bien le conteneur */
+}
+
+/* Centrage du conteneur */
+.col-md-12 {
+    padding: 0; /* Supprime le padding pour une vidéo pleine largeur */
+    overflow: hidden; /* Empêche les débordements indésirables */
+}
+
+/* Section Newsletter */
+.newsletter-section {
+    background-color: #e27a46; /* Couleur de fond orange */
+    color: white;
+    position: relative;
+}
+
+.newsletter-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.newsletter-text {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* Champ d'entrée et bouton */
+.form-control {
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+    .form-control::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+.btn-subscribe {
+    background-color: white;
+    color: #e27a46;
+    font-weight: bold;
+    border: none;
+    padding: 0 20px;
+}
+
+/* Style des lignes ondulées */
+.newsletter-section::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 150px;
+    height: 100px;
+    background: url('path_to_wave_image.svg') no-repeat;
+    opacity: 0.3;
+}
+
+.newsletter-section::after {
+    content: '';
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    width: 150px;
+    height: 100px;
+    background: url('path_to_wave_image.svg') no-repeat;
+    opacity: 0.3;
+}
+/* Footer Section */
+.footer-section {
+    background-color: #f9f5f0;
+    color: #333;
+}
+
+.footer-description {
+    color: #666;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-location h5 {
+    font-weight: bold;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.footer-location p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.footer-bottom {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.footer-link {
+    color: #666;
+    text-decoration: none;
+}
+
+    .footer-link:hover {
+        text-decoration: underline;
+    }
+/* Section Newsletter */
+.newsletter-section {
+    background-color: #e27a46; /* Couleur de fond orange */
+    color: white;
+    position: relative;
+}
+
+.newsletter-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.newsletter-text {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* Champ d'entrée et bouton */
+.form-control {
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+    .form-control::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+.btn-subscribe {
+    background-color: white;
+    color: #e27a46;
+    font-weight: bold;
+    border: none;
+    padding: 0 20px;
+}
+
+/* Style des lignes ondulées */
+.newsletter-section::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 150px;
+    height: 100px;
+    background: url('path_to_wave_image.svg') no-repeat;
+    opacity: 0.3;
+}
+
+.newsletter-section::after {
+    content: '';
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    width: 150px;
+    height: 100px;
+    background: url('path_to_wave_image.svg') no-repeat;
+    opacity: 0.3;
+}
+
+        /* Footer Section */
+        .footer-section {
+        background-color: #f9f5f0;
+        color: #333;
+        }
+
+        .footer-description {
+        color: #666;
+        font-size: 1rem;
+        max-width: 600px;
+        margin: 0 auto;
+        }
+
+        .footer-location h5 {
+        font-weight: bold;
+        color: #333;
+        margin: 0.5rem 0;
+        }
+
+        .footer-location p {
+        color: #666;
+        font-size: 0.9rem;
+        }
+
+        .footer-bottom {
+        font-size: 0.8rem;
+        color: #666;
+        }
+
+        .footer-link {
+        color: #666;
+        text-decoration: none;
+        }
+
+        .footer-link:hover {
+        text-decoration: underline;
+        }
+        /* Section Newsletter */
+        .newsletter-section {
+        background-color: #e27a46; /* Couleur de fond orange */
+        color: white;
+        position: relative;
+        }
+
+        .newsletter-title {
+        font-weight: bold;
+        font-size: 1.5rem;
+        }
+
+        .newsletter-text {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        }
+
+        /* Champ d'entrée et bouton */
+        .form-control {
+        background: none;
+        border: 1px solid white;
+        color: white;
+        }
+
+        .form-control::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+        }
+
+        .btn-subscribe {
+        background-color: white;
+        color: #e27a46;
+        font-weight: bold;
+        border: none;
+        padding: 0 20px;
+        }
+
+        /* Style des lignes ondulées */
+        .newsletter-section::before {
+        content: '';
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        width: 150px;
+        height: 100px;
+        background: url('path_to_wave_image.svg') no-repeat;
+        opacity: 0.3;
+        }
+
+        .newsletter-section::after {
+        content: '';
+        position: absolute;
+        bottom: 10%;
+        right: 5%;
+        width: 150px;
+        height: 100px;
+        background: url('path_to_wave_image.svg') no-repeat;
+        opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid " id="first">
+        <div class="container   justify-content-between">
+            <nav class="navbar navbar-expand-xxl navbar-light d-flex justify-content-between align-items-center">
+                <!-- Logo Section -->
+                <div class="logo">
+                    <a href="/">
+                        <img src="/Photos/logo.png" width="100" alt="Logo" />
+                    </a>
+                </div>
+
+                <!-- Navbar Toggler (Mobile) -->
+                <button class="navbar-toggler btn btnnav" style="background-color:#ee965f" type="button" data-bs-toggle="collapse"
+                data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse justify-content-center" id="main-nav">
+                    <div class="navbar-nav">
+                        <a href="/" class="liennav px-5">Home</a>
+@*                         @if (User.IsInRole(Salon.Models.clsRoles.roleAdmin))
+                        {
+                            <a href="/Dashboard" class="liennav px-5">Dashboard</a>
+                        } *@
+                        <a href="/About" class="liennav px-5">About</a>
+                        <a href="/Service" class="liennav px-5">Services</a>
+                        <a href="/Reservation" class="liennav px-5">Reservation</a>
+                        <a href="/Produits" class="liennav px-5">Produits</a>
+                        <a href="#contact" class="liennav px-5">Contact Us</a>
+                    </div>
+
+                    <!-- Price List Button -->
+                    <div class="mx-5 ">
+                        <button type="button" style="background-color:#ee965f" class="btn btnnav  text-white">Price List</button>
+                    </div>
+                    <partial name="_LoginPartial" />
+                </div>
+            </nav>
+        </div>
+        <div class="container " style="height:82vh">
+            <div class="row d-flex align-items-center justify-content-between text-center" style="height:82vh">
+                <div class="col-md-4 ">
+                    <h1>Get the best</h1> <h1> hairstyle now</h1>
+                    <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Mollis luctus risus nulla. Pharetra laoreet.</i>
+                </div>
+                <div class="col-md-6  col-12 col-lg-4 d-md-none d-block ">
+                    <img src="/Photos/image-team-02-800x781.jpg" class="img-fluid" />
+                </div>
+                <div class="col-md-6 d-none d-md-block ">
+                    <img src="/Photos/image-team-02-800x781.jpg" class="img-fluid" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div style="height:10vh ;"></div>
+    <div class="my-5 container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-12 text-center " style="color:#ee965f">
+                <h3>
+                    Our standard qualities
+                </h3>
+            </div>
+            <div class="col-md-12 pt-5 text-center">
+                <h1 style="font-size : 50px">
+                    Why choose our salon?
+                </h1>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="/Photos/1.png" />
+                <h5 style="color:#ee965f">9 Years of Experience</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.
+                </p>
+            </div>
+            <div class="col-md-4 text-center ">
+                <img src="/Photos/2.png" />
+                <h5 style="color:#ee965f">
+                    We're Professional
+                </h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="/Photos/3.png" />
+                <h5 style="color:#ee965f">Certified Hairdresser</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 3vh">
+        <div class="col-md-12 position-relative">
+            <video class="responsive-video" autoplay loop muted controls>
+                <source src="Photos/Fox.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+
+
+
+    <div class="container " style="margin-top:10vh">
+        <div class="row d-flex justify-content-around align-items-center">
+            <div class=" col-12 col-md-6 col-lg-4">
+                <img src="/Photos/images-home-01-800x781.jpg" class="img-fluid" />
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <h4 style="color:#ee965f">
+                        know more
+                    </h4>
+                    <h1>
+                        Our team skills
+                    </h1>
+                </div>
+                <div>
+                    <div>
+                        <div class="d-flex justify-content-between ">
+                            <p>Hairdressing </p>
+                            <p>97%</p>
+                        </div>
+                        <hr class="custom-bar" style="background-image: linear-gradient( to right ,#e49760  97%, gray 20%); height:07px; border-radius:30px" />
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="d-flex justify-content-between ">
+                            <p>Assist Stylist </p>
+                            <p>93%</p>
+                        </div>
+                        <hr class="custom-bar" style="background-image: linear-gradient( to right ,#e49760  93%, gray 20%); height:07px; border-radius:30px" />
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="d-flex justify-content-between ">
+                            <p>Salon Environment</p>
+                            <p>82%</p>
+                        </div>
+                        <hr class="custom-bar" style="background-image: linear-gradient( to right ,#e49760  82%, gray 20%); height:07px; border-radius:30px" />
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="d-flex justify-content-between ">
+                            <p>Drive and Energy</p>
+                            <p>90%</p>
+                        </div>
+                        <hr class="custom-bar" style="background-image: linear-gradient( to right ,#e49760  90%, gray 20%); height:07px; border-radius:30px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" mt-5 pt-5 d-flex justify-content-center" style=" background-color: #ee965f ; ">
+        <div class=" container row d-flex justify-content-between align-items-center" style="padding-top:2vh ; padding-bottom:5vh">
+            <div class="col-md-12 text-center">
+                <h3 class="my-5">Our services</h3>
+                <h1 class="my-5">Service Beyond Expectation</h1>
+            </div>
+            @foreach (var service in Model)
+            {
+                <div class="col-md-4" style="position: relative; overflow: hidden;">
+                    <img src="@service.ImagePath" class="img-fluid" alt="@service.Nom">
+                    <div style="position: absolute; bottom: 0; left: 3%; border-radius: 30px; width: 23rem;">
+                        <div style="background-color: #e27a46; padding: 10px; text-align: left;">
+                            <h6 style="color: white; font-weight: bold;">@service.Nom</h6>
+                            <p style="color: white;">@service.Prix</p>
+                            <a href="#" style="color: white; text-decoration: none;">
+                                ➔ VIEW SERVICE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div style=" background-image: linear-gradient(#EE965F 50%, #FFFFFF 50%);">
+        <div class="container bg-white " style="border: solid 1px transparent ; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);">
+            <div class="row text-center d-flex justify-content-around ">
+                <div class="col-md-12 mt-5 "></div>
+                <div class="col-md-2 bg-white ">
+                    <h2>10<span style="color: #e27a46;">+</span></h2>
+                    <p class="text-uppercase " style="color: #e27a46 ; font-weight: bold;">Years of Experience</p>
+                </div>
+                <div class="col-md-2 bg-white ">
+                    <h2>24</h2>
+                    <p class="text-uppercase" style="color: #e27a46; font-weight: bold;">Hairdressers</p>
+                </div>
+                <div class="col-md-2 bg-white">
+                    <h2>430<span style="color: #e27a46;">+</span></h2>
+                    <p class="text-uppercase" style="color: #e27a46; font-weight: bold;">Services Completed</p>
+                </div>
+                <div class="col-md-2 bg-white">
+                    <h2>200<span style="color: #e27a46;">+</span></h2>
+                    <p class="text-uppercase" style="color: #e27a46; font-weight: bold;">Happy Customers</p>
+                </div>
+                <div class="col-md-12 mt-5 "></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row d-flex justify-content-around align-content-center my-5 py-5" style="height:max-content">
+            <!-- Liste des prix -->
+            <div class="col-md-4">
+                <h6 style="color: #e27a46; text-transform: uppercase;">Pricing</h6>
+                <h2 class="mb-4" style="font-weight: bold;">Price List</h2>
+                <ul class="list-unstyled">
+                    <li class="d-flex justify-content-between align-items-center mb-3">
+                        <span>Blow Dry</span>
+                        <span style="color: #e27a46;">From $23</span>
+                    </li>
+                    <li class="d-flex justify-content-between align-items-center mb-3">
+                        <span>Basic Tint</span>
+                        <span style="color: #e27a46;">From $45</span>
+                    </li>
+                    <li class="d-flex justify-content-between align-items-center mb-3">
+                        <span>Organic Color</span>
+                        <span style="color: #e27a46;">From $50</span>
+                    </li>
+                    <li class="d-flex justify-content-between align-items-center mb-3">
+                        <span>Full Highlights</span>
+                        <span style="color: #e27a46;">From $70</span>
+                    </li>
+                </ul>
+                <button class="btn btn-primary mt-3" style="background-color: #e27a46; border: none;">
+                    ➔ View All
+                </button>
+            </div>
+            <!-- Image et horaires -->
+            <div class="col-md-6 col-lg-4 col-12 d-flex flex-column align-items-center  " style="position:relative ; margin-bottom:10vh ">
+                <img src="/Photos/sbagha.jpg" class="img-fluid mb-4" alt="Haircut Image" style="border-radius: 10px;">
+                <div class="card p-3" style="width: 18rem; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); position: absolute ; bottom :-7vh ; left:-7vh">
+                    <h5 class="text-center mb-3" style="font-weight: bold;">Open Hours</h5>
+                    <hr>
+                    <div class="text-center">
+                        <p class="mb-1 text-uppercase" style="font-weight: bold;">Monday - Saturday</p>
+                        <p>08.00 - 15.00</p>
+                        <hr>
+                        <p class="mb-1 text-uppercase" style="font-weight: bold;">Sundays</p>
+                        <p>Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <!-- En-tête des témoignages -->
+        <div class="text-center mb-5">
+            <h6 style="color: #e27a46; text-transform: uppercase;">Reviews</h6>
+            <h2 style="font-weight: bold;">What our customers say</h2>
+        </div>
+
+        <!-- Témoignages en deux colonnes -->
+        <div class="row justify-content-center">
+            <!-- Premier témoignage -->
+            <div class="col-md-5 text-center mb-4">
+                <p style="font-style: italic;">
+                    <span style="font-size: 50px; color: #f0c2a0;">“</span>
+                    I could probably go into sales for you. Definitely worth the investment. We've used hair salon for the last five years.
+                </p>
+                <div class="d-flex align-items-center justify-content-center mt-3">
+                    <img src="/Photos/pic1.jpg" class="rounded-circle me-2" alt="Jessica Zhang" style="width: 50px; height: 50px;">
+                    <div>
+                        <span style="color: #e27a46; font-weight: bold;">Jessica Zhang</span><br>
+                        <small>Customer</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deuxième témoignage -->
+            <div class="col-md-5 text-center mb-4">
+                <p style="font-style: italic;">
+                    <span style="font-size: 50px; color: #f0c2a0;">“</span>
+                    Absolutely wonderful! We can't understand how we've been living without hair salon. I am completely blown away.
+                </p>
+                <div class="d-flex align-items-center justify-content-center mt-3">
+                    <img src="/Photos/pic2.jpg" class="rounded-circle me-2" alt="Leanna May" style="width: 50px; height: 50px;">
+                    <div>
+                        <span style="color: #e27a46; font-weight: bold;">Leanna May</span><br>
+                        <small>Customer</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <!-- En-tête de la galerie -->
+        <div class="text-center mb-5">
+            <h6 style="color: #e27a46; text-transform: uppercase;">Galleries</h6>
+            <h2 style="font-weight: bold;">Salon Gallery</h2>
+        </div>
+
+        <!-- Galerie de photos -->
+        <div class="row g-3 justify-content-between align-content-center d-flex gallery-grid">
+            <div class="col-md-4 gallery-item">
+                <img src="/Photos/11.jpg" class="img-fluid " alt="Gallery Image 1">
+            </div>
+            <div class="col-md-4 gallery-item">
+                <img src="/Photos/12.jpg" class="img-fluid " alt="Gallery Image 2">
+            </div>
+            <div class="col-md-4 gallery-item">
+                <img src="/Photos/13.jpg" class="img-fluid " alt="Gallery Image 3">
+            </div>
+            <div class="col-md-4 gallery-item">
+                <img src="/Photos/14.jpg" class="img-fluid " alt="Gallery Image 4">
+            </div>
+            <div class="col-md-4 gallery-item ">
+                <img src="/Photos/15.jpg" class="img-fluid " alt="Gallery Image 5">
+            </div>
+            <div class="col-md-4 gallery-item">
+                <img src="/Photos/16.jpg" class="img-fluid " alt="Gallery Image 6">
+            </div>
+        </div>
+    </div>
+    <div class="  container newsletter-section" style="margin-top:10vh ; margin-bottom:10vh">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <!-- Texte de la newsletter -->
+                <div class="col-md-8">
+                    <h2 class="newsletter-title">Subscribe to Our Newsletter</h2>
+                    <p class="newsletter-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+
+                <!-- Formulaire d'inscription -->
+                <div class="col-md-4 d-flex">
+                    <input type="email" class="form-control me-2" placeholder="Your email" aria-label="Email">
+                    <button class="btn btn-subscribe">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-section py-5">
+        <div class="container text-center">
+            <!-- Logo et description -->
+            <div class="mb-4">
+                <img src="/Photos/logo.png" alt="Melier Logo" style="height: 60px;">
+                <p class="footer-description mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+            
+            <!-- Emplacements des succursales -->
+            <div class="row text-center mb-4">
+                <div class="col-md-4">
+                    <div class="footer-location">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C8.13 2 5 5.13 5 9C5 13.25 12 22 12 22C12 22 19 13.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="#e27a46" />
+                        </svg>
+                        <h5>Hawaii Branch</h5>
+                        <p>1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-location">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C8.13 2 5 5.13 5 9C5 13.25 12 22 12 22C12 22 19 13.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="#e27a46" />
+                        </svg>
+                        <h5>Kansas Branch</h5>
+                        <p>4140 Parker Rd, Wichita 31134</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-location">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C8.13 2 5 5.13 5 9C5 13.25 12 22 12 22C12 22 19 13.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="#e27a46" />
+                        </svg>
+                        <h5>Texas Branch</h5>
+                        <p>2715 Ash Dr. South Dakota 83475</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Liens de pied de page -->
+            <div class="footer-bottom text-center">
+                <p>&copy; 2021, Melier Kit by Tokomoo.</p>
+                <a href="#" class="footer-link">Help & Support</a> |
+                <a href="#" class="footer-link">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer text-muted">
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
+

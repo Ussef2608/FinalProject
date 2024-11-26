@@ -13,6 +13,8 @@ namespace Salon.Data
         public DbSet<Fournisseur> Fournisseurs { get; set; }
         public DbSet<Produit> Produits { get; set; }
         public DbSet<Service> Services { get; set; }
+        public DbSet<ServiceDetails> ServicesDétaillés { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -43,6 +45,13 @@ namespace Salon.Data
             modelBuilder.Entity<Fournisseur>()
                 .HasIndex(f => f.Nom)
                 .IsUnique();
+            
+            modelBuilder.Entity<ServiceDetails>()
+                .HasKey(f => f.Id);
+            modelBuilder.Entity<ServiceDetails>()
+               .HasOne(se => se.Service)
+               .WithMany(s => s.ServicesDétaillés)
+               .OnDelete(DeleteBehavior.Cascade);
 
 
         }

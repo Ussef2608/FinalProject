@@ -2273,8 +2273,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\images\\services\\8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068.jpg",
-      "PackagePath": "staticwebassets\\images\\services\\8b4bf0af-0482-4ce7-acd3-beba7fab86b6_04082009068.jpg"
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\images\\services\\7dba824e-aa13-4619-95b5-1f426b73e516_firstService.jpg",
+      "PackagePath": "staticwebassets\\images\\services\\7dba824e-aa13-4619-95b5-1f426b73e516_firstService.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\images\\services\\98fe721e-793f-4acf-b063-355541cd2e56_thirdService.jpg",
+      "PackagePath": "staticwebassets\\images\\services\\98fe721e-793f-4acf-b063-355541cd2e56_thirdService.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\images\\services\\9c639f8a-c6eb-49b0-89f8-e3dea194f1eb_SecondService.jpg",
+      "PackagePath": "staticwebassets\\images\\services\\9c639f8a-c6eb-49b0-89f8-e3dea194f1eb_SecondService.jpg"
     },
     {
       "Id": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\wwwroot\\js\\app.js",

@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<Service>
+@{
     Layout = null;
 }
 
@@ -553,48 +554,21 @@
                 <h3 class="my-5">Our services</h3>
                 <h1 class="my-5">Service Beyond Expectation</h1>
             </div>
-            <div class="col-md-4" style="  position: relative; overflow: hidden; ">
-                <img src="/Photos/1.jpg" class="img-fluid" alt="Service Image">
-                <div style="position: absolute; bottom: 0 ; left:3% ; border-radius:30px; width:23rem">
-                    <div style="background-color: #e27a46; padding: 10px; text-align: left;">
-                        <h6 style="color: white; font-weight: bold; ">Haircuts</h6>
-                        <p style="color: white; ">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-                        </p>
-                        <a href="#" style="color: white; text-decoration: none;">
-                            ➔ VIEW SERVICE
-                        </a>
+            @foreach (var service in Model)
+            {
+                <div class="col-md-4" style="position: relative; overflow: hidden;">
+                    <img src="@service.ImagePath" class="img-fluid" alt="@service.Nom">
+                    <div style="position: absolute; bottom: 0; left: 3%; border-radius: 30px; width: 23rem;">
+                        <div style="background-color: #e27a46; padding: 10px; text-align: left;">
+                            <h6 style="color: white; font-weight: bold;">@service.Nom</h6>
+                            <p style="color: white;">@service.Description</p>
+                            <a href="#" style="color: white; text-decoration: none;">
+                                ➔ VIEW SERVICE
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4" style="  position: relative; overflow: hidden; ">
-                <img src="/Photos/2.jpg" class="img-fluid" alt="Service Image">
-                <div style="position: absolute; bottom: 0 ; left:3% ; border-radius:30px; width:23rem">
-                    <div style="background-color: #e27a46; padding: 10px; text-align: left;">
-                        <h6 style="color: white; font-weight: bold; ">Haircuts</h6>
-                        <p style="color: white; ">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-                        </p>
-                        <a href="#" style="color: white; text-decoration: none;">
-                            ➔ VIEW SERVICE
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4" style="  position: relative; overflow: hidden; ">
-                <img src="/Photos/3.jpg" class="img-fluid" alt="Service Image">
-                <div style="position: absolute; bottom: 0 ; left:3% ; border-radius:30px; width:23rem">
-                    <div style="background-color: #e27a46; padding: 10px; text-align: left;">
-                        <h6 style="color: white; font-weight: bold; ">Haircuts</h6>
-                        <p style="color: white; ">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-                        </p>
-                        <a href="#" style="color: white; text-decoration: none;">
-                            ➔ VIEW SERVICE
-                        </a>
-                    </div>
-                </div>
-            </div>
+            }
         </div>
     </div>
     <div style=" background-image: linear-gradient(#EE965F 50%, #FFFFFF 50%);">

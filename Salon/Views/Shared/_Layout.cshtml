@@ -16,6 +16,7 @@
 <html lang="en">
 
 <head>
+    @RenderSection("Scripts", required: false)
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-icon.png">
@@ -122,18 +123,18 @@
                     </div>
                 </li>
                 <li class="nav-item border-start my-0 pt-2">
-                    <a class="nav-link position-relative ms-0 ps-2 py-2 " href="../pages/profile.html">
-                        <span class="nav-link-text ms-1">Profile</span>
+                    <a class="nav-link position-relative ms-0 ps-2 py-2 " href="/Identity/Account/Manage">
+                        <span class="nav-link-text ms-1">Profil</span>
                     </a>
                 </li>
                 <li class="nav-item border-start my-0 pt-2">
-                    <a class="nav-link position-relative ms-0 ps-2 py-2 " href="../pages/sign-in.html">
+                    <a class="nav-link position-relative ms-0 ps-2 py-2 " href="/Identity/Account/Login">
                         <span class="nav-link-text ms-1">Sign In</span>
                     </a>
                 </li>
                 <li class="nav-item border-start my-0 pt-2">
-                    <a class="nav-link position-relative ms-0 ps-2 py-2 " href="../pages/sign-up.html">
-                        <span class="nav-link-text ms-1">Sign Up</span>
+                    <a class="nav-link position-relative ms-0 ps-2 py-2 " href="">
+                        <span class="nav-link-text ms-1">Logout</span>
                     </a>
                 </li>
             </ul>
@@ -281,6 +282,8 @@
                     </ul>
                 </div>
             </div>
+            <partial name="_LoginPartial" />
+
         </nav>
         <!-- End Navbar -->
         <div class="container-fluid py-4 px-5">

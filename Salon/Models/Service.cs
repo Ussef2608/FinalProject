@@ -15,5 +15,8 @@ namespace Salon.Models
 
         // Propriété pour le chemin de l'image
         public string ImagePath { get; set; }
+
+        public ICollection<ServiceDetails> ServicesDétaillés { get; set; }
+
     }
 }
