@@ -55,6 +55,22 @@ namespace Salon.Controllers
         {
             return View();
         }
+        public IActionResult Home()
+        {
+            return View();
+        }
+        public IActionResult AboutProduit()
+        {
+            return View();
+        }
+        public IActionResult Blog()
+        {
+            return View();
+        }
+        public IActionResult Contact()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

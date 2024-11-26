@@ -1,158 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\maelf\\source\\repos\\FinalProject\\",
+  "WorkspaceRootPath": "C:\\Users\\kurombo\\Desktop\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\kurombo\\desktop\\finalproject\\salon\\salon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\salon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\kurombo\\desktop\\finalproject\\salon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\viewmodel\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\viewmodel\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\models\\servicedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\models\\servicedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\models\\fournisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\models\\fournisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\areas\\identity\\pages\\account\\loginwith2fa.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\areas\\identity\\pages\\account\\loginwith2fa.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\areas\\identity\\pages\\account\\loginwithrecoverycode.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\areas\\identity\\pages\\account\\loginwithrecoverycode.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\controllers\\fournisseurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\controllers\\fournisseurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\views\\service\\editservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\service\\editservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\views\\service\\indexservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\service\\indexservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\views\\service\\createservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\service\\createservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\migrations\\20241124182947_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\migrations\\20241124182947_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\views\\produit\\indexproduit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\produit\\indexproduit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\controllers\\produitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\controllers\\produitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\viewmodel\\produitviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\viewmodel\\produitviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\views\\produit\\createproduit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\produit\\createproduit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\kurombo\\desktop\\finalproject\\salon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\kurombo\\desktop\\finalproject\\salon\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\kurombo\\desktop\\finalproject\\salon\\views\\home\\1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\home\\1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\maelf\\source\\repos\\finalproject\\salon\\views\\roles\\addroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\roles\\addroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\kurombo\\desktop\\finalproject\\salon\\views\\shared\\_layoutprod.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\views\\shared\\_layoutprod.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|c:\\users\\kurombo\\desktop\\finalproject\\salon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856FD3C5-5489-4AF1-BB00-2E664ADD7AB7}|Salon\\Salon.csproj|solutionrelative:salon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -162,471 +41,113 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Salon\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACYCAAAAAAAAAAAgwDgCAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T09:06:28.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceDetails.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Models\\ServiceDetails.cs",
-              "RelativeDocumentMoniker": "Salon\\Models\\ServiceDetails.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Models\\ServiceDetails.cs",
-              "RelativeToolTip": "Salon\\Models\\ServiceDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T08:18:18.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Models\\Service.cs",
-              "RelativeDocumentMoniker": "Salon\\Models\\Service.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Models\\Service.cs",
-              "RelativeToolTip": "Salon\\Models\\Service.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:18:14.203Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Salon\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Salon\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA4wBgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T16:17:39.943Z",
+              "Title": "Salon.csproj",
+              "DocumentMoniker": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\Salon.csproj",
+              "RelativeDocumentMoniker": "Salon\\Salon.csproj",
+              "ToolTip": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\Salon.csproj",
+              "RelativeToolTip": "Salon\\Salon.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-26T10:12:09.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ServiceController.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\ServiceController.cs",
-              "RelativeDocumentMoniker": "Salon\\Controllers\\ServiceController.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\ServiceController.cs",
-              "RelativeToolTip": "Salon\\Controllers\\ServiceController.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAuwHEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T16:18:53.215Z"
+              "DocumentIndex": 0,
+              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAvwKoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-26T10:11:30.499Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\Program.cs",
               "RelativeDocumentMoniker": "Salon\\Program.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Program.cs",
+              "ToolTip": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\Program.cs",
               "RelativeToolTip": "Salon\\Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T22:13:31.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T10:10:24.897Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ServiceViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\ViewModel\\ServiceViewModel.cs",
-              "RelativeDocumentMoniker": "Salon\\ViewModel\\ServiceViewModel.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\ViewModel\\ServiceViewModel.cs",
-              "RelativeToolTip": "Salon\\ViewModel\\ServiceViewModel.cs",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\appsettings.json",
+              "RelativeDocumentMoniker": "Salon\\appsettings.json",
+              "ToolTip": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\appsettings.json",
+              "RelativeToolTip": "Salon\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:18:25.359Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T10:10:21.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Produit.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Models\\Produit.cs",
-              "RelativeDocumentMoniker": "Salon\\Models\\Produit.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Models\\Produit.cs",
-              "RelativeToolTip": "Salon\\Models\\Produit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T08:19:56.333Z"
+              "DocumentIndex": 5,
+              "Title": "1.cshtml",
+              "DocumentMoniker": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\Views\\Home\\1.cshtml",
+              "RelativeDocumentMoniker": "Salon\\Views\\Home\\1.cshtml",
+              "ToolTip": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\Views\\Home\\1.cshtml",
+              "RelativeToolTip": "Salon\\Views\\Home\\1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T10:09:38.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Fournisseur.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Models\\Fournisseur.cs",
-              "RelativeDocumentMoniker": "Salon\\Models\\Fournisseur.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Models\\Fournisseur.cs",
-              "RelativeToolTip": "Salon\\Models\\Fournisseur.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T08:29:20.061Z"
+              "DocumentIndex": 4,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\Views\\Home\\Home.cshtml",
+              "RelativeDocumentMoniker": "Salon\\Views\\Home\\Home.cshtml",
+              "ToolTip": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\Views\\Home\\Home.cshtml",
+              "RelativeToolTip": "Salon\\Views\\Home\\Home.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T10:09:31.532Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Salon\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Salon\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAmwDYAAAAAAAAAAAAAAA==",
+              "Title": "_LayoutProd.cshtml",
+              "DocumentMoniker": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\Views\\Shared\\_LayoutProd.cshtml",
+              "RelativeDocumentMoniker": "Salon\\Views\\Shared\\_LayoutProd.cshtml",
+              "ToolTip": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\Views\\Shared\\_LayoutProd.cshtml",
+              "RelativeToolTip": "Salon\\Views\\Shared\\_LayoutProd.cshtml",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAAAAsBAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T09:45:41.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Salon\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Salon\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwEUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:02:49.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "Salon\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T22:17:39.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginWith2fa.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
-              "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
-              "RelativeToolTip": "Salon\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T08:08:26.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoginWithRecoveryCode.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
-              "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
-              "RelativeToolTip": "Salon\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T08:08:48.484Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeToolTip": "Salon\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T00:01:24.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "Salon\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBkAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T22:33:35.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeToolTip": "Salon\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T08:09:33.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Salon\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAKoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T15:39:13.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FournisseurController.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\FournisseurController.cs",
-              "RelativeDocumentMoniker": "Salon\\Controllers\\FournisseurController.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\FournisseurController.cs",
-              "RelativeToolTip": "Salon\\Controllers\\FournisseurController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:09:26.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DeletePersonalData.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
-              "RelativeToolTip": "Salon\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T07:56:45.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ChangePassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
-              "RelativeToolTip": "Salon\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T07:56:40.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "_Layout1.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Shared\\_Layout1.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Views\\Shared\\_Layout1.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Shared\\_Layout1.cshtml",
-              "RelativeToolTip": "Salon\\Views\\Shared\\_Layout1.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAFcAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T23:24:22.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IndexService.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Service\\IndexService.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Views\\Service\\IndexService.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Service\\IndexService.cshtml",
-              "RelativeToolTip": "Salon\\Views\\Service\\IndexService.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T16:29:27.384Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "RelativeToolTip": "Salon\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T21:29:05.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "about.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Home\\about.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Views\\Home\\about.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Home\\about.cshtml",
-              "RelativeToolTip": "Salon\\Views\\Home\\about.cshtml",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T21:41:29.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Salon\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAALoAAAAAAAAAAAAAAIcAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T23:25:33.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CreateService.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Service\\CreateService.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Views\\Service\\CreateService.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Service\\CreateService.cshtml",
-              "RelativeToolTip": "Salon\\Views\\Service\\CreateService.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T16:30:50.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Salon\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T23:27:55.28Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "EditService.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Service\\EditService.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Views\\Service\\EditService.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Service\\EditService.cshtml",
-              "RelativeToolTip": "Salon\\Views\\Service\\EditService.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T19:09:50.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Home\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Views\\Home\\Dashboard.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Home\\Dashboard.cshtml",
-              "RelativeToolTip": "Salon\\Views\\Home\\Dashboard.cshtml",
-              "ViewState": "AgIAAAkCAAAAAAAAAAAAACECAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T23:20:51.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "20241124182947_Service.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Migrations\\20241124182947_Service.cs",
-              "RelativeDocumentMoniker": "Salon\\Migrations\\20241124182947_Service.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Migrations\\20241124182947_Service.cs",
-              "RelativeToolTip": "Salon\\Migrations\\20241124182947_Service.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:29:48.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IndexProduit.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Produit\\IndexProduit.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Views\\Produit\\IndexProduit.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Produit\\IndexProduit.cshtml",
-              "RelativeToolTip": "Salon\\Views\\Produit\\IndexProduit.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T17:54:40.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CreateProduit.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Produit\\CreateProduit.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Views\\Produit\\CreateProduit.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Produit\\CreateProduit.cshtml",
-              "RelativeToolTip": "Salon\\Views\\Produit\\CreateProduit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T17:56:16.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ProduitController.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\ProduitController.cs",
-              "RelativeDocumentMoniker": "Salon\\Controllers\\ProduitController.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\ProduitController.cs",
-              "RelativeToolTip": "Salon\\Controllers\\ProduitController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T16:24:16.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ProduitViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\ViewModel\\ProduitViewModel.cs",
-              "RelativeDocumentMoniker": "Salon\\ViewModel\\ProduitViewModel.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\ViewModel\\ProduitViewModel.cs",
-              "RelativeToolTip": "Salon\\ViewModel\\ProduitViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:58:42.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\appsettings.json",
-              "RelativeDocumentMoniker": "Salon\\appsettings.json",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\appsettings.json",
-              "RelativeToolTip": "Salon\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-24T17:32:03.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "RolesController.cs",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\RolesController.cs",
-              "RelativeDocumentMoniker": "Salon\\Controllers\\RolesController.cs",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Controllers\\RolesController.cs",
-              "RelativeToolTip": "Salon\\Controllers\\RolesController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAuwFMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T22:27:17.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "Salon\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAjwHYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T15:46:07.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "addRoles.cshtml",
-              "DocumentMoniker": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Roles\\addRoles.cshtml",
-              "RelativeDocumentMoniker": "Salon\\Views\\Roles\\addRoles.cshtml",
-              "ToolTip": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Views\\Roles\\addRoles.cshtml",
-              "RelativeToolTip": "Salon\\Views\\Roles\\addRoles.cshtml",
-              "ViewState": "AgIAAG8AAAAAAAAAAIBJwAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T22:47:05.978Z"
+              "WhenOpened": "2024-11-26T09:37:56.38Z"
             }
           ]
         }

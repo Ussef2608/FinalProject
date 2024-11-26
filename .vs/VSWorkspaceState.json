@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Salon",
-    "\\Salon\\Views",
-    "\\Salon\\Views\\Home"
+    "\\Salon\\wwwroot"
   ],
-  "SelectedNode": "\\Salon\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\Salon.sln",
   "PreviewInSolutionExplorer": false
 }

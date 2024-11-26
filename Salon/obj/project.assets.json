@@ -8307,23 +8307,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maelf\\.nuget\\packages\\": {},
+    "C:\\Users\\kurombo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Salon.csproj",
+      "projectUniqueName": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\Salon.csproj",
       "projectName": "Salon",
-      "projectPath": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\Salon.csproj",
-      "packagesPath": "C:\\Users\\maelf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maelf\\source\\repos\\FinalProject\\Salon\\obj\\",
+      "projectPath": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\Salon.csproj",
+      "packagesPath": "C:\\Users\\kurombo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kurombo\\Desktop\\FinalProject\\Salon\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\maelf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kurombo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8332,6 +8332,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8406,7 +8407,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
