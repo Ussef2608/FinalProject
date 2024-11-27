@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Service>
+﻿@model Salon.ViewModel.HomeViewModel 
 @{
     Layout = null;
 }
@@ -554,7 +554,7 @@
                 <h3 class="my-5">Our services</h3>
                 <h1 class="my-5">Service Beyond Expectation</h1>
             </div>
-            @foreach (var service in Model)
+            @foreach (var service in Model.Services)
             {
                 <div class="col-md-4" style="position: relative; overflow: hidden;">
                     <img src="@service.ImagePath" class="img-fluid" alt="@service.Nom">
@@ -597,37 +597,32 @@
     </div>
 
     <div class="container mt-5">
-        <div class="row d-flex justify-content-around align-content-center my-5 py-5" style="height:max-content">
-            <!-- Liste des prix -->
-            <div class="col-md-4">
+        <div class="row d-flex justify-content-between align-items-start my-5 py-5">
+            <!-- Service Details Section -->
+            <div class="col-md-5">
                 <h6 style="color: #e27a46; text-transform: uppercase;">Pricing</h6>
                 <h2 class="mb-4" style="font-weight: bold;">Price List</h2>
                 <ul class="list-unstyled">
-                    <li class="d-flex justify-content-between align-items-center mb-3">
-                        <span>Blow Dry</span>
-                        <span style="color: #e27a46;">From $23</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mb-3">
-                        <span>Basic Tint</span>
-                        <span style="color: #e27a46;">From $45</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mb-3">
-                        <span>Organic Color</span>
-                        <span style="color: #e27a46;">From $50</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mb-3">
-                        <span>Full Highlights</span>
-                        <span style="color: #e27a46;">From $70</span>
-                    </li>
+                    <!-- Loop to display detailed services -->
+                    @foreach (var serviceDetail in Model.Top4ServiceDetails)
+                    {
+                        <li class="d-flex justify-content-between align-items-center mb-3">
+                            <span>@serviceDetail.Name</span>  <!-- Service name -->
+                            <span style="color: #e27a46;">From @serviceDetail.Prix.ToString("C")</span>  <!-- Price -->
+                        </li>
+                    }
                 </ul>
                 <button class="btn btn-primary mt-3" style="background-color: #e27a46; border: none;">
                     ➔ View All
                 </button>
             </div>
-            <!-- Image et horaires -->
-            <div class="col-md-6 col-lg-4 col-12 d-flex flex-column align-items-center  " style="position:relative ; margin-bottom:10vh ">
+
+            <!-- Image and Open Hours Section -->
+            <div class="col-md-6 d-flex flex-column align-items-center position-relative">
+                <!-- Image Section -->
                 <img src="/Photos/sbagha.jpg" class="img-fluid mb-4" alt="Haircut Image" style="border-radius: 10px;">
-                <div class="card p-3" style="width: 18rem; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); position: absolute ; bottom :-7vh ; left:-7vh">
+                <!-- Open Hours Card -->
+                <div class="card p-3" style="width: 18rem; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); position: absolute; bottom: -7vh; left: -7vh;">
                     <h5 class="text-center mb-3" style="font-weight: bold;">Open Hours</h5>
                     <hr>
                     <div class="text-center">
@@ -641,6 +636,7 @@
             </div>
         </div>
     </div>
+
 
     <div class="container mt-5">
         <!-- En-tête des témoignages -->
