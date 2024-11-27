@@ -60,9 +60,85 @@ app.MapControllerRoute(
     defaults: new { controller = "Home", action = "Dashboard" });
 
 app.MapControllerRoute(
-    name: "ProduitSiteIndex",
-    pattern: "ProduitSiteIndex",
-    defaults: new { controller = "ProduitSiteController", action = "Index" });
+    name: "ShopAbout",
+    pattern: "Shop/About",
+    defaults: new { controller = "ProduitSite", action = "About" });
+
+app.MapControllerRoute(
+    name: "ShopBlogClassic",
+    pattern: "Shop/BlogClassic",
+    defaults: new { controller = "ProduitSite", action = "BlogClassic" });
+
+app.MapControllerRoute(
+    name: "ShopCart",
+    pattern: "Shop/Cart",
+    defaults: new { controller = "ProduitSite", action = "Cart" });
+
+app.MapControllerRoute(
+    name: "ShopCheckout",
+    pattern: "Shop/Checkout",
+    defaults: new { controller = "ProduitSite", action = "Checkout" });
+
+app.MapControllerRoute(
+    name: "ShopComingSoon",
+    pattern: "Shop/ComingSoon",
+    defaults: new { controller = "ProduitSite", action = "ComingSoon" });
+
+app.MapControllerRoute(
+    name: "ShopContact",
+    pattern: "Shop/Contact",
+    defaults: new { controller = "ProduitSite", action = "Contact" });
+
+app.MapControllerRoute(
+    name: "ShopErrorPage",
+    pattern: "Shop/ErrorPage",
+    defaults: new { controller = "ProduitSite", action = "ErrorPage" });
+
+app.MapControllerRoute(
+    name: "ShopFAQs",
+    pattern: "Shop/FAQs",
+    defaults: new { controller = "ProduitSite", action = "FAQs" });
+
+app.MapControllerRoute(
+    name: "ShopIndex",
+    pattern: "Shop",
+    defaults: new { controller = "ProduitSite", action = "Index" });
+
+app.MapControllerRoute(
+    name: "ShopMyAccount",
+    pattern: "Shop/MyAccount",
+    defaults: new { controller = "ProduitSite", action = "MyAccount" });
+
+app.MapControllerRoute(
+    name: "ShopOrderTracking",
+    pattern: "Shop/OrderTracking",
+    defaults: new { controller = "ProduitSite", action = "OrderTracking" });
+
+app.MapControllerRoute(
+    name: "ShopPanier",
+    pattern: "Shop/Panier",
+    defaults: new { controller = "ProduitSite", action = "Panier" });
+
+app.MapControllerRoute(
+    name: "ShopShopSidebar",
+    pattern: "Shop/ShopSidebar",
+    defaults: new { controller = "ProduitSite", action = "ShopSidebar" });
+
+app.MapControllerRoute(
+    name: "ShopSinglePostNoSidebar",
+    pattern: "Shop/SinglePostNoSidebar",
+    defaults: new { controller = "ProduitSite", action = "SinglePostNoSidebar" });
+
+app.MapControllerRoute(
+    name: "ShopSingleProduct",
+    pattern: "Shop/SingleProduct",
+    defaults: new { controller = "ProduitSite", action = "SingleProduct" });
+
+app.MapControllerRoute(
+    name: "ShopWishlist",
+    pattern: "Shop/Wishlist",
+    defaults: new { controller = "ProduitSite", action = "Wishlist" });
+
 
 
 

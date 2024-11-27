@@ -389,45 +389,7 @@
 </head>
 <body>
     <div class="container-fluid " id="first">
-        <div class="container   justify-content-between">
-            <nav class="navbar navbar-expand-xxl navbar-light d-flex justify-content-between align-items-center">
-                <!-- Logo Section -->
-                <div class="logo">
-                    <a href="/">
-                        <img src="/Photos/logo.png" width="100" alt="Logo" />
-                    </a>
-                </div>
-
-                <!-- Navbar Toggler (Mobile) -->
-                <button class="navbar-toggler btn btnnav" style="background-color:#ee965f" type="button" data-bs-toggle="collapse"
-                data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Navbar Links -->
-                <div class="collapse navbar-collapse justify-content-center" id="main-nav">
-                    <div class="navbar-nav">
-                        <a href="/" class="liennav px-5">Home</a>
-@*                         @if (User.IsInRole(Salon.Models.clsRoles.roleAdmin))
-                        {
-                            <a href="/Dashboard" class="liennav px-5">Dashboard</a>
-                        } *@
-                        <a href="/About" class="liennav px-5">About</a>
-                        <a href="/Service" class="liennav px-5">Services</a>
-                        <a href="/Reservation" class="liennav px-5">Reservation</a>
-                        <a href="/Produits" class="liennav px-5">Produits</a>
-                        <a href="#contact" class="liennav px-5">Contact Us</a>
-                    </div>
-
-                    <!-- Price List Button -->
-                    <div class="mx-5 ">
-                        <button type="button" style="background-color:#ee965f" class="btn btnnav  text-white">Price List</button>
-                    </div>
-                    <partial name="_LoginPartial" />
-                </div>
-            </nav>
-        </div>
+        @Html.Partial("~/Views/Shared/_LayoutNav.cshtml")
         <div class="container " style="height:82vh">
             <div class="row d-flex align-items-center justify-content-between text-center" style="height:82vh">
                 <div class="col-md-4 ">
@@ -549,26 +511,29 @@
     </div>
 
     <div class=" mt-5 pt-5 d-flex justify-content-center" style=" background-color: #ee965f ; ">
-        <div class=" container row d-flex justify-content-between align-items-center" style="padding-top:2vh ; padding-bottom:5vh">
-            <div class="col-md-12 text-center">
-                <h3 class="my-5">Our services</h3>
-                <h1 class="my-5">Service Beyond Expectation</h1>
-            </div>
-            @foreach (var service in Model.Services)
-            {
-                <div class="col-md-4" style="position: relative; overflow: hidden;">
-                    <img src="@service.ImagePath" class="img-fluid" alt="@service.Nom">
-                    <div style="position: absolute; bottom: 0; left: 3%; border-radius: 30px; width: 23rem;">
-                        <div style="background-color: #e27a46; padding: 10px; text-align: left;">
-                            <h6 style="color: white; font-weight: bold;">@service.Nom</h6>
-                            <p style="color: white;">@service.Description</p>
-                            <a href="#" style="color: white; text-decoration: none;">
-                                ➔ VIEW SERVICE
-                            </a>
+        <div class=" container row " style="padding-top:2vh ; padding-bottom:5vh">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-12 text-center">
+                    <h3 class="my-5">Our services</h3>
+                    <h1 class="my-5">Service Beyond Expectation</h1>
+                </div>
+                @foreach (var service in Model.Services)
+                {
+                    <div class="col-md-4" style="position: relative; overflow: hidden;">
+                        <img src="/images/services/@service.ImagePath" class="img-fluid" alt="@service.Nom">
+                        <div style="position: absolute; bottom: 0; left: 3%; border-radius: 30px; width: 23rem;">
+                            <div style="background-color: #e27a46; padding: 10px; text-align: left;">
+                                <h6 style="color: white; font-weight: bold;">@service.Nom</h6>
+                                <p style="color: white;">@service.Description</p>
+                                <a href="#" style="color: white; text-decoration: none;">
+                                    ➔ VIEW SERVICE
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            }
+                }
+
+            </div>      
         </div>
     </div>
     <div style=" background-image: linear-gradient(#EE965F 50%, #FFFFFF 50%);">
@@ -607,6 +572,7 @@
                     @foreach (var serviceDetail in Model.Top4ServiceDetails)
                     {
                         <li class="d-flex justify-content-between align-items-center mb-3">
+                            
                             <span>@serviceDetail.Name</span>  <!-- Service name -->
                             <span style="color: #e27a46;">From @serviceDetail.Prix.ToString("C")</span>  <!-- Price -->
                         </li>

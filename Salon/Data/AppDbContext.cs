@@ -14,6 +14,8 @@ namespace Salon.Data
         public DbSet<Produit> Produits { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<ServiceDetails> ServicesDétaillés { get; set; }
+        public DbSet<Reservation> Reservations { get; set; }
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -186,8 +186,8 @@
             <div class="row justify-content-between align-items-center w-100 py-2">
 
                 <div class="col-auto">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="images/main-logo.png" alt="logo">
+                    <a class="navbar-brand" href="/Shop">
+                        <img src="/images/main-logo.png" alt="logo">
                     </a>
                 </div>
 
@@ -206,21 +206,21 @@
                         </div>
 
                         <div class="offcanvas-body justify-content-center">
-                            <ul class="navbar-nav justify-content-end  flex-grow-1 gap-5 pe-3">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 gap-5 pe-3">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link active" href="/index.html" aria-expanded="false">Home</a>
+                                    <a class="nav-link active" href="/Shop" aria-expanded="false">Home</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="about.html">About</a>
+                                    <a class="nav-link" href="/Shop/About">About</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="blog-classic.html">Blog</a>
+                                    <a class="nav-link" href="/Shop/BlogClassic">Blog</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="shop-sidebar.html">Shop</a>
+                                    <a class="nav-link" href="/Shop/ShopSidebar">Shop</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="/Shop/Contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -230,7 +230,7 @@
                 <div class="col-auto">
                     <ul class="list-unstyled d-flex m-0 mt-3 mt-xl-0">
                         <li>
-                            <a href="wishlist.html" class="text-uppercase mx-3">
+                            <a href="/Shop/Wishlist" class="text-uppercase mx-3">
                                 <svg width="24" height="24" viewBox="0 0 24 24">
                                     <use xlink:href="#heart"></use>
                                 </svg>
@@ -238,7 +238,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="cart.html" class="text-uppercase mx-3">
+                            <a href="/Shop/Cart" class="text-uppercase mx-3">
                                 <svg width="24" height="24" viewBox="0 0 24 24">
                                     <use xlink:href="#cart"></use>
                                 </svg>
@@ -267,8 +267,85 @@
         </div>
     </nav>
 
-    @RenderBody()
 
+    @RenderBody()
+    <section class="newsletter my-5" style="background: url(images/newsletter-image.jpg) no-repeat; ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 py-5 my-5">
+                    <div class="subscribe-header text-center pb-3">
+                        <h3 class="section-title text-uppercase ">Sign Up for our newsletter</h3>
+                    </div>
+                    <form id="form" class="d-flex flex-wrap gap-2">
+                        <input type="text" name="email" placeholder="Your Email Addresss"
+                               class="form-control form-control-lg rounded-pill fs-6 py-3 px-4 ">
+                        <button class="btn btn-dark btn-lg bg-dark text-white text-uppercase rounded-pill py-3 w-100">
+                            Sign
+                            Up
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="instagram my-5 py-5">
+        <div class="container">
+            <h4 class="text-center py-3 ">Follow us on Instagram</h4>
+
+            <div class="row d-flex flex-wrap my-3 g-0">
+                <figure class=" col instagram-item magnific position-relative">
+                    <a href="#" class="">
+                        <img src="/images/insta-item1.jpg" alt="instagram" class="insta-image">
+                        <div class="icon-overlay d-flex justify-content-center">
+                            <svg width="30" height="30" viewBox="0 0 30 30" style="color: #fff4f4;">
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                        </div>
+                    </a>
+                </figure>
+                <figure class=" col instagram-item magnific position-relative">
+                    <a href="#" class="">
+                        <img src="/images/insta-item3.jpg" alt="instagram" class="insta-image">
+                        <div class="icon-overlay d-flex justify-content-center">
+                            <svg width="30" height="30" viewBox="0 0 30 30" style="color: #fff4f4;">
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                        </div>
+                    </a>
+                </figure>
+                <figure class=" col instagram-item magnific position-relative">
+                    <a href="#" class="">
+                        <img src="/images/insta-item4.jpg" alt="instagram" class="insta-image">
+                        <div class="icon-overlay d-flex justify-content-center">
+                            <svg width="30" height="30" viewBox="0 0 30 30" style="color: #fff4f4;">
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                        </div>
+                    </a>
+                </figure>
+                <figure class=" col instagram-item magnific position-relative">
+                    <a href="#" class="">
+                        <img src="/images/insta-item5.jpg" alt="instagram" class="insta-image">
+                        <div class="icon-overlay d-flex justify-content-center">
+                            <svg width="30" height="30" viewBox="0 0 30 30" style="color: #fff4f4;">
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                        </div>
+                    </a>
+                </figure>
+                <figure class=" col instagram-item magnific position-relative">
+                    <a href="#" class="">
+                        <img src="/images/insta-item6.jpg" alt="instagram" class="insta-image">
+                        <div class="icon-overlay d-flex justify-content-center">
+                            <svg width="30" height="30" viewBox="0 0 30 30" style="color: #fff4f4;">
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                        </div>
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </section>
     <footer id="footer" class="mt-5">
         <div class="container">
             <div class="row d-flex flex-wrap justify-content-between py-5">
@@ -276,7 +353,7 @@
                     <div class="footer-menu footer-menu-001">
                         <div class="footer-intro mb-4">
                             <a href="index.html">
-                                <img src="images/main-logo.png" alt="logo">
+                                <img src="/images/main-logo.png" alt="logo">
                             </a>
                         </div>
                         <p>
@@ -394,21 +471,22 @@
                     <div class="col-md-6 d-flex flex-wrap">
                         <div class="shipping">
                             <span>We ship with:</span>
-                            <img src="images/arct-icon.png" alt="icon">
-                            <img src="images/dhl-logo.png" alt="icon">
+                            <img src="/images/arct-icon.png" alt="icon">
+                            <img src="/images/dhl-logo.png" alt="icon">
                         </div>
                         <div class="payment-option">
                             <span>Payment Option:</span>
-                            <img src="images/visa-card.png" alt="card">
-                            <img src="images/paypal-card.png" alt="card">
-                            <img src="images/master-card.png" alt="card">
+                            <img src="/images/visa-card.png" alt="card">
+                            <img src="/images/paypal-card.png" alt="card">
+                            <img src="/images/master-card.png" alt="card">
                         </div>
                     </div>
                     <div class="col-md-6 text-md-end mt-3 mt-md-0">
-                        <p>
-                            © Copyright 2023. All rights reserved. Design by <a href="https://templatesjungle.com"
+                       @*  <p>
+                            © Copyright 2023. All rights reserved.
+                            Design by <a href="https://templatesjungle.com"
                                                                                 target="_blank">TemplatesJungle</a>
-                        </p>
+                        </p> *@
                     </div>
                 </div>
             </div>

@@ -388,45 +388,7 @@
 </head>
 <body>
     <div class="container-fluid " id="first">
-        <div class="container   justify-content-between">
-            <nav class="navbar navbar-expand-xxl navbar-light d-flex justify-content-between align-items-center">
-                <!-- Logo Section -->
-                <div class="logo">
-                    <a href="/">
-                        <img src="/Photos/logo.png" width="100" alt="Logo" />
-                    </a>
-                </div>
-
-                <!-- Navbar Toggler (Mobile) -->
-                <button class="navbar-toggler btn btnnav" style="background-color:#ee965f" type="button" data-bs-toggle="collapse"
-                data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Navbar Links -->
-                <div class="collapse navbar-collapse justify-content-center" id="main-nav">
-                    <div class="navbar-nav">
-                        <a href="/" class="liennav px-5">Home</a>
-@*                         @if (User.IsInRole(Salon.Models.clsRoles.roleAdmin))
-                        {
-                            <a href="/Dashboard" class="liennav px-5">Dashboard</a>
-                        } *@
-                        <a href="/About" class="liennav px-5">About</a>
-                        <a href="/Service" class="liennav px-5">Services</a>
-                        <a href="/Reservation" class="liennav px-5">Reservation</a>
-                        <a href="/Produits" class="liennav px-5">Produits</a>
-                        <a href="#contact" class="liennav px-5">Contact Us</a>
-                    </div>
-
-                    <!-- Price List Button -->
-                    <div class="mx-5 ">
-                        <button type="button" style="background-color:#ee965f" class="btn btnnav  text-white">Price List</button>
-                    </div>
-                    <partial name="_LoginPartial" />
-                </div>
-            </nav>
-        </div>
+        @Html.Partial("~/Views/Shared/_LayoutNav.cshtml")
         <div class="container " style="height:82vh">
             <div class="row d-flex align-items-center justify-content-between text-center" style="height:82vh">
                 <div class="col-md-4 ">
